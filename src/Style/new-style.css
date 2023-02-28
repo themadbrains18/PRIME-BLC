@@ -1,0 +1,326 @@
+
+.new_icons{
+    display: none;
+}
+
+.btnScroll{
+    max-width: 1200px;
+    width: 100%;
+}
+
+.modal-content{
+    margin-top: 90px;
+}
+
+.section .col-md-3{
+    display: none;
+}
+
+.scroll_icons{
+    display: none;
+}
+
+.market .table{
+    color: #fff !important;
+}
+
+.market{
+    overflow: auto;
+}
+.market::-webkit-scrollbar{
+ width: 10px;
+ border-radius: 10px;
+ background-color: #d8ad5e !important;
+}
+   .market::-webkit-scrollbar-thumb{
+    background-color: #000 !important; 
+    }
+   .market .table-responsive::-webkit-scrollbar{
+   background-color: #d8ad5e !important;
+   border-radius: 10px;
+   height: 10px;
+   }
+   .market .table-responsive::-webkit-scrollbar-thumb{
+    background-color: #000 !important; 
+    }
+   .market .table thead th{
+    vertical-align: middle;
+}
+
+.market .cancel__btn{
+    white-space: nowrap;
+}
+
+.market .pairs__button{
+    font-size: 1rem;
+    white-space: nowrap;
+}
+.market .table thead th{
+    font-size: 10px !important;
+}
+.market h4{
+    font-size: 12px;
+    margin-bottom: 0;
+}
+/* .market .table-responsive{
+    max-width: 1200px;
+} */
+
+@media (max-width: 1200px){
+
+.btnScroll{
+    overflow-x: scroll;
+}
+
+.new_icons{
+    display: block;
+    max-width: 24px;
+    width: 100%;
+    margin: 0 10px;
+    cursor: pointer;
+    color: rgb(115, 126, 141);
+    z-index: 999999;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.new_sidebar_tabs .tradecontainer{
+    padding: 30px;
+}
+
+}
+
+@media (max-width: 991px){
+    .new_market_sec .all__types__coin{
+        overflow-x: scroll;
+        margin: 20px;
+    }
+
+    .new_market_sec .all__types__coin .new_text{
+        white-space: nowrap;
+    }
+    .order__button{
+        width: 100%;
+
+    }
+}
+
+@media (max-width: 768px){
+    .new_sidebar_tabs{
+        flex-direction: column;
+    }
+
+    .new_sidebar_tabs .nav.flex-column{
+        flex-direction: row !important;
+    }
+
+    .new_sidebar_tabs .left-sidebar{
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+
+    .new_sidebar_tabs .right-tab{
+        margin-left: 0;
+        padding: 0 10px;
+    }
+
+    .new_sidebar_tabs .nav.flex-column{
+        flex-wrap: nowrap !important;
+        overflow-x: scroll !important;
+    }
+
+    .new_sidebar_tabs .left-sidebar{
+        display: flex;
+        align-items: center;
+    }
+
+    .tab-new-style .new_sidebar_tabs .left-sidebar p{
+        line-height: 35px;
+        padding: 10px 10px 0 10px;
+    }
+
+    .scroll_icons{
+        display: block;
+        max-width: 24px;
+        width: 100%;
+        margin: 0 10px;
+        cursor: pointer;
+        color: rgb(115, 126, 141);
+    }
+
+    .new_sidebar_tabs .table-responsive tr th{
+        padding: 15px 12px !important;
+    }
+
+    .tab-new-style{
+        margin: 20px auto 0 !important;
+    }
+
+    .new_sidebar_tabs .subTradeContainer{
+        padding: 25px;
+    }
+    
+    .new_sidebar_tabs .tradecontainer{
+        padding: 0px;
+    }
+
+    .new_sidebar_tabs .right-tab .tab-content thead th{
+        padding: 15px 12px; 
+    }
+
+    /* .new_market_sec .all__coins__content .coin.futures{
+        padding: 14px 14px 14px 0 !important;
+    } */
+
+    .new_market_sec .all__coins__content .Contracts{
+        padding-left: 0 !important;
+    }
+
+    .new_market_sec .pair__coins .Contracts{
+        padding-left: 0 !important;
+    }
+
+    .new_market_sec .pair__coins > table .table__data.first{
+        width: 15%;
+    }
+
+    .new_market_sec .all__coins__content a table{
+        max-width: 800px;
+        width: 100%;
+        display: block;
+        overflow-x: scroll;
+    }
+
+    .new_market_sec .tabs__bottom__line.future-line{
+        left: 50% !important;
+    }
+
+    .new_market_sec .upper__filters .table__data{
+        padding: 8px;
+    }
+
+    .new_market_sec .table-responsive-sm{
+        overflow-x: scroll;
+    }
+
+  
+}
+
+@media (max-width: 480px){
+    .new_sidebar_tabs .p2p-currncy-dropdown select{
+        max-width: 55px;
+        width: 100%;
+    }
+
+    .new_sidebar_tabs .subTradeContainer{
+        padding: 15px;
+    }
+
+    .new_market_sec .pair__coins > table .table__data{
+        width: 8% !important;
+        padding: 5px;
+    }
+
+    .new_market_sec .crypto__tabs__wrapper{
+        overflow-x: scroll;
+    }
+
+    .new_market_sec .multi__tab__wrapper{
+        gap: 0;
+    }
+
+    .new_market_sec .multi__tab__wrapper a , .multi__tab__wrapper button{
+        padding: 0 9px;
+    }
+    
+    .new_market_sec .new__listing__link{
+        white-space: nowrap;
+    }
+
+
+}
+
+.rewards .container .d-flex{
+    row-gap: 70px !important;
+    column-gap: 30px !important;
+}
+
+.rewards .container .d-flex .reward_card{
+    max-width: 270px;
+    width: 100%;
+}
+
+.rewards .container .d-flex .reward_card .card-body{
+    padding: 34px 24px 24px 24px;
+}
+
+.rewards .container .d-flex .reward_card .card-body h6{
+    margin-top: 20px !important;
+}
+
+.rewards .container .d-flex .reward_card .card-body h4{
+    margin-top: 10px !important;
+    font-size: 24px !important;
+}
+
+@media (max-width : 768px){
+
+    .rewards .container .d-flex{
+        row-gap: 10px !important;
+        column-gap: 30px !important;
+    }
+    .rewards .container .d-flex .reward_card{
+        max-width: 100%;
+        width: 100%;
+    }
+    .rewards .container .d-flex .reward_card .card-body {
+        padding: 14px 4px 14px 4px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .card-body .fw-bold {
+        font-weight: 700 !important;
+        font-size: 12px !important;
+    }
+
+    .card-body .fs-4 {
+        font-size: 12px !important;
+    }
+
+    .rewards .container .d-flex .reward_card .card-body h6 {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .rewards .container .d-flex .reward_card .card-body h4 {
+        margin-top: 10px !important;
+        font-size: 12px !important;
+    }
+
+    .img-parent-div{
+        width: 47px;
+    }
+    .img-parent-div img {
+        width: 60% !important;
+    }
+}
+
+.CookieConsent{
+    background: #17181e !important;
+}
+
+#rcc-confirm-button{
+    background: #d8ad5e !important;
+    border-radius: 10px;
+}
+
+#rcc-confirm-button:hover{
+    background: #eb9f12 !important;
+}
+
+#rcc-decline-button{
+    border-radius: 10px !important;
+}

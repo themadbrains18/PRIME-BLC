@@ -1,0 +1,49 @@
+.authenticity{
+}
+.auth_box{
+    padding: 120px 0 50px;
+    gap: 60px;
+   
+}
+.auth_banner{
+    background-color: #141a2a;
+
+}
+
+.auth-register-ctn {
+
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #d8ad63;
+    background: #fff;
+    border-radius: 4px;
+    max-width: 550px;
+    width: 100%;
+    margin: 25px auto 50px;
+    border-radius: 50px;
+
+}
+
+.auth-register-ctn-input {
+    display: flex;
+    align-items: center;
+    padding: 11px;
+    border: transparent;
+    width:100%;
+    border-radius: 30px;
+
+    outline: none;
+}
+
+.auth-register-ctn-button {
+    display: flex;
+    flex-direction: row;
+    background: #d8ad63;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #121214;
+    align-items: center;
+    padding: 16px 50px;
+    border-radius: 30px;
+}

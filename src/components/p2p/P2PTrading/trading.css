@@ -1,0 +1,600 @@
+ @keyframes move {
+   from {
+     transform: translate(0);
+   }
+
+   to {
+     transform: translate(20px);
+   }
+ }
+
+ /* ====== Slider Sec css start ====== */
+ .head_slider {
+   margin: 60px 0 20px;
+ }
+
+ .trade-list__content {
+   margin-top: 16px;
+   border-radius: 8px;
+   overflow: hidden;
+ }
+
+ .head_slider .splide__slide {
+   padding: 10px;
+   background: white;
+   border-radius: 10px;
+   position: relative;
+   overflow: hidden;
+ }
+
+ .head_slider .splide__pagination__page.is-active {
+   background-color: #f4a203;
+ }
+
+ .head_slider .splide__arrow {
+   opacity: 0;
+   transition: 0.3s;
+ }
+
+ .head_slider .splide__arrow:focus {
+   box-shadow: none;
+   border: none;
+   outline: none;
+ }
+
+ .head_slider .splide:hover .splide__arrow {
+   opacity: 1;
+ }
+
+ /* ====== Slider Sec css end ====== */
+ /* ======  Token list wrapper css start ======  */
+ .token_list_wrapper .list_head {
+   display: grid;
+   align-items: center;
+   gap: 20px;
+   grid-template-columns: auto 200px auto auto auto;
+ }
+
+ .token_list_wrapper .react-tabs__tab {
+   color: #adb1b8;
+   font-size: 16px;
+   line-height: 24px;
+   border: none !important;
+   padding: 10px 35px;
+   border-radius: 8px;
+   background-color: #f5f7fa;
+ }
+
+ .buy_sell_cta_wrapper .buy-coin .react-tabs__tab--selected {
+   background-color: #20b26c !important;
+   color: #fff !important;
+ }
+
+ .buy_sell_cta_wrapper .sell-coin .react-tabs__tab--selected {
+   background-color: #ef454a !important;
+   color: #fff !important;
+ }
+
+ .buy_sell_cta_wrapper li {
+   min-width: 100px;
+   text-align: center;
+ }
+
+ .token_list_wrapper .sec_inner {
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 10px;
+ }
+
+ .token_list_wrapper .react-tabs__tab-list {
+   gap: 20px;
+ }
+
+ .token_list_wrapper .list_head {
+   margin: 0;
+ }
+
+ button.coin_cta {
+   display: flex;
+   align-items: center;
+   /* gap: 10px; */
+   max-width: 100%;
+   width: 100%;
+   background: #f5f7fa;
+   padding: 10px;
+   border-radius: 10px;
+   justify-content: flex-end;
+ }
+
+ button.coin_cta img {
+   width: 12px;
+   height: 12px;
+ }
+
+ .cta_img_wrapper {
+   max-width: 24px;
+   width: 100%;
+ }
+
+ .coin_list_wrapper {
+   position: relative;
+ }
+
+ .coin_list_wrapper .span_wrapper {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   justify-content: space-between;
+   width: 100%;
+ }
+
+ .coin_list_wrapper .span_wrapper>span {
+   font-size: 16px;
+   line-height: 22px;
+ }
+
+ .amount_wrapper {
+   display: grid;
+   align-items: center;
+   padding: 10px;
+   border-radius: 8px;
+   background-color: #f5f7fa;
+   grid-template-columns: 70% 30%;
+   position: relative;
+ }
+
+ .amount_wrapper .coin_cta {
+   padding: 0;
+   background: transparent;
+ }
+
+ .amount_input {
+   border: none;
+   background: transparent;
+   width: 100%;
+   padding-right: 20px;
+ }
+
+ .amount_input:focus {
+   border: none;
+   outline: none;
+ }
+
+ .amount_wrapper span.span_wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 20px;
+ }
+
+ .all_payment_methods {
+   position: relative;
+ }
+
+ .all_payment_methods .span_wrapper * {
+   display: block;
+ }
+
+ .all_payment_methods .span_wrapper {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   max-width: 250px;
+   width: 100%;
+   justify-content: space-between;
+ }
+
+ .all_payment_methods .coin_cta {
+   max-width: 250px;
+ }
+
+ .refresh_wrapper button.refresh_cta {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   color: #f4a203;
+   width: 100%;
+   justify-content: flex-end;
+ }
+
+ .advertiser_img {
+   width: 40px;
+   height: 40px;
+   background: #f7a6001f;
+   border-radius: 50%;
+   display: flex;
+ }
+
+ .advertiser_img .advertiser_mail {
+   margin: auto !important;
+   font-size: 14px;
+   font-weight: 600;
+   text-transform: uppercase;
+ }
+
+ .refresh_wrapper button.refresh_cta:hover {
+   opacity: 0.7;
+ }
+
+ .refresh_wrapper button.refresh_cta:focus {
+   outline: none;
+   border: none;
+ }
+
+ .token_list_wrapper .coin_list_dropdown .list_item_name {
+   color: #121214 !important;
+ }
+
+ .coin_list_dropdown .list_head {
+   display: block;
+ }
+
+ .coin_list_wrapper button.coin_cta {
+   width: 100%;
+   max-width: 100%;
+ }
+
+ .advertisr_list {
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 8px;
+   margin-top: 2px;
+   overflow: auto;
+ }
+
+ .advertisr_list th,
+ .advertisr_list td {
+   padding: 15px;
+   border-bottom: 1px solid #f5f7fa;
+ }
+
+ .tabele_heading {
+   font-size: 14px;
+   font-weight: 400;
+ }
+
+ .advertiser_detail_wrapper p {
+   margin: 0;
+ }
+
+ .advertiser_detail_wrapper {
+   display: flex;
+   align-items: center;
+   gap: 12px;
+ }
+
+ .advertiser_name {
+   font-size: 14px;
+   font-weight: 600;
+ }
+
+ .advertiser_status,
+ .advertiser_orders,
+ .amount_currency {
+   font-size: 11px;
+   font-weight: 400;
+ }
+
+ .advertisr_list tbody p {
+   margin: 0;
+ }
+
+ .price_amount {
+   font-size: 18px;
+   font-weight: 600;
+   display: flex;
+   align-items: baseline;
+   gap: 12px;
+ }
+
+ .advertisr_list .available_limit {
+   display: flex;
+   align-items: center;
+   gap: 12px;
+ }
+
+ .advertisr_list .available,
+ .advertisr_list .limit {
+   font-size: 12px;
+   font-weight: 400;
+ }
+
+ .available_limit_value .available,
+ .available_limit_value .limit {
+   font-weight: 600;
+ }
+
+ .advertisr_list .pay_method {
+   padding: 3px 8px;
+   border-radius: 4px;
+   background-color: #fef8eb;
+   display: inline-block;
+   font-size: 14px;
+   font-weight: 600;
+   margin-right: 5px;
+ }
+
+ .advertisr_list .table_buy_cta {
+   background-color: #20b26c;
+   color: #fff;
+   padding: 10px 25px;
+   border-radius: 8px;
+   font-size: 14px;
+   white-space: nowrap;
+ }
+
+ .advertisr_list .table_cell_cta {
+   background-color: #ef454a;
+   color: #fff;
+   padding: 10px 25px;
+   border-radius: 8px;
+   font-size: 14px;
+   white-space: nowrap;
+ }
+
+ .token_list_wrapper {
+   padding: 0 0 80px 0;
+ }
+
+ .token_list_wrapper .tmb_container {
+   min-width: 1224px;
+   width: 100%;
+ }
+
+ /* .token_list_wrapper {
+   overflow-x: scroll;
+ } */
+
+ .table_pagination {
+   border-radius: 5px;
+   /* display: flex; */
+ }
+
+ .table_pagination ul {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+   padding: 0;
+   margin-top: 30px;
+   justify-content: flex-end;
+ }
+
+ .table_pagination ul li {
+   background-color: #f5f7fa;
+   width: 32px;
+   height: 32px;
+   border-radius: 3px;
+   position: relative;
+   cursor: pointer;
+ }
+
+ .table_pagination ul li.active-item {
+   background-color: #f7a6001f;
+   color: #f4a203;
+ }
+
+ .table_pagination span {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
+
+ .table_pagination.active-item a {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: #f4a203;
+ }
+
+ .table_pagination a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+}
+
+ /* ====  Token list wrapper css end ==== */
+
+ /* 3 steps trade css start*/
+ .trade_step {
+   padding: 120px 0 20px;
+   background: #fff;
+ }
+
+ .trade_step .trade_step_container {
+   max-width: 1224px;
+   margin: 0 auto;
+   padding: 0 12px;
+
+ }
+
+ .trade_step_cont {
+   padding-top: 50px;
+   gap: 20px;
+
+ }
+
+ .trade_button {
+   margin-bottom: 42px;
+   height: 48px;
+   display: flex;
+   margin-top: 30px;
+ }
+
+ .buy_btn {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: black;
+   padding: 12px 24px;
+   border-radius: 8px;
+   cursor: pointer;
+ }
+
+ .buy_btn_active {
+   background-color: #f4a203;
+   font-weight: 600;
+ }
+
+ .trade_step_content {
+   display: flex;
+   flex-direction: column;
+   max-width: 416px;
+   width: 100%;
+   padding: 0 24px;
+
+ }
+
+ .trade_step_img {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 24px;
+ }
+
+ .arrowimg {
+   width: 208px;
+ }
+
+ .content_img {
+   width: 80px;
+   height: 80px;
+   display: block;
+
+ }
+
+ .trade_step_content .title {
+   font-size: 20px;
+   color: #121214;
+   line-height: 28px;
+   font-weight: 600;
+   margin-bottom: 12px;
+   margin-top: 16px;
+ }
+
+ .trade_step_content .subtitle {
+   font-size: 14px;
+   color: #81858c;
+   line-height: 22px;
+   font-weight: 400;
+
+ }
+
+ /* 3 steps trade css end*/
+
+
+
+
+
+ /* faq css start*/
+ .p2p-faq-wrapper {
+   padding: 90px 0 20px;
+   background: #fff;
+ }
+
+ .p2p-faq-wrapper .p2p-faq-container {
+   max-width: 1224px;
+   margin: 0 auto;
+   padding: 0 12px;
+
+ }
+
+ .p2p-faq-container-content {
+   display: flex;
+   flex-direction: column;
+   padding-top: 30px;
+ }
+
+ .p2p-faq-content {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 10px;
+ }
+
+ .p2p-faq-content-item {
+   font-weight: 600;
+   font-size: 18px;
+   cursor: pointer;
+   line-height: 26px;
+   padding-bottom: 30px;
+   padding-right: 25px;
+
+ }
+
+ .p2p-faq-content-item:hover {
+   color: #f4a203
+ }
+
+
+ .p2p-faq-btn {
+   padding: 0 49px 0 4px;
+   display: flex;
+   align-items: center;
+   line-height: 48px;
+   font-weight: 600;
+   color: #eb9f12;
+   font-size: 18px;
+ }
+
+ .p2p-faq-btn span svg {
+   margin-top: -3px;
+ }
+
+ span.p2p-faq-btn_icon {
+   animation: move 1s alternate infinite;
+ }
+
+ /* faq css end*/
+
+ @media (max-width:768px) {
+   .p2p-faq-content {
+     grid-template-columns: 1fr;
+   }
+
+   .p2p-faq-container {
+     padding: 0 40px;
+   }
+
+   .trade_step_cont {
+     justify-content: center;
+     gap: 50px;
+     flex-wrap: wrap;
+   }
+
+   .trade_button {
+     justify-content: center;
+   }
+
+   .trade_step_container h1 {
+     text-align: center;
+   }
+
+   .trade_step_cont {
+     max-width: 90%;
+   }
+
+   .arrowimg {
+     display: none;
+   }
+
+   .token_list_wrapper {
+     margin-top: 40px;
+   }
+
+   .head_slider .splide__pagination__page {
+     width: 5px;
+     height: 5px;
+   }
+
+   .token_list_wrapper .list_head {
+     grid-template-columns: auto;
+   }
+
+ }
+
+ .coin_cta .cta_img_wrapper img{
+  width: 12px;
+ }

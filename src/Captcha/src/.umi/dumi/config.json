@@ -1,0 +1,40 @@
+{
+  "menus": {
+    "en-US": {
+      "*": [
+        {
+          "path": "/",
+          "title": "quick start",
+          "meta": {}
+        },
+        {
+          "title": "Captcha",
+          "path": "/captcha",
+          "meta": {},
+          "children": [
+            {
+              "path": "/captcha",
+              "title": "Captcha参考",
+              "meta": {}
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "locales": [
+    {
+      "name": "en-US",
+      "label": "English"
+    }
+  ],
+  "navs": {},
+  "title": "slider-captcha-react",
+  "logo": "https://user-images.githubusercontent.com/9554297/83762004-a0761b00-a6a9-11ea-83b4-9c8ff721d4b8.png",
+  "mode": "doc",
+  "repository": {
+    "url": "https://github.com/cheepion/slider-captcha-react",
+    "branch": "master"
+  },
+  "theme": {}
+}

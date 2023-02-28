@@ -1,0 +1,304 @@
+.place__order__model {
+  display: flex;
+  justify-content: space-between;
+  gap: 2px;
+  padding: 0 20px;
+}
+
+.place__order__seller__container {
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.place__order__seller__container .seller__info {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.seller__info .seller__avatar {
+  width: 40px;
+  height: 40px;
+  background: #f7a6001f;
+  border-radius: 50%;
+  display: flex;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.seller__info .seller__avatar p {
+  margin: auto !important;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.seller__detail {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.seller__detail .seller__name {
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+.seller__detail .seller__order_detail {
+  color: #666;
+}
+
+.seller__detail .online__status {
+  color: #81858c;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.place__order__seller__container .info_tag {
+  margin: 12px 0 14px 0;
+  color: #24ae64;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.place__order__seller__container .info_tag span {
+  padding-right: 10px;
+}
+
+.place__order__seller__container .info_tag .fiat-iconfont {
+  font-size: 12px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.place__order__seller__container .advertiser-remark {
+  max-height: 100px;
+  overflow-y: auto;
+  padding: 8px 12px;
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  margin-bottom: 24px;
+  color: #333;
+  background-color: #fff;
+  word-wrap: break-word;
+}
+
+.place__order__seller__container .advertiser-crypto-info {
+  padding: 24px 0;
+  border-top: 1px solid #e2e2e2;
+}
+
+.advertiser-crypto-info .crypto-info-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.crypto-info-item .crypto-info-item-value.emphasis {
+  color: #24ae64;
+  font-weight: 600;
+}
+
+
+.place__order__bid__form {
+  padding: 20px;
+}
+
+.place__order__bid__form .amount-input-wrapper {
+  width: 100%;
+  padding: 16px 8px 14px;
+  border: 1px solid #d4dbde;
+  border-radius: 4px;
+}
+
+.place__order__bid__form .amount-input-wrapper.by-space--vertical {
+  flex-direction: column;
+}
+
+.place__order__bid__form .amount-input-wrapper.by-space {
+  display: inline-flex;
+}
+
+.amount-input-wrapper .amount-input-label {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.amount-input-wrapper .by-input {
+  width: 100%;
+  display: inline-flex;
+  position: relative;
+  box-sizing: border-box;
+  flex-direction: column;
+  font-size: 12;
+}
+
+.amount-input-wrapper .by-input__container {
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-clip: padding-box;
+  color: #333;
+  height: 24px;
+  transition: border-color .15s linear,background-color .15s linear;
+  will-change: border-color,background-color;
+}
+
+.amount-input-wrapper .by-input, .by-input__container {
+  display: inline-flex;
+  position: relative;
+  width: 100%;
+}
+
+.by-input__left-icon {
+  display: flex;
+  align-items: center;
+}
+
+.by-input__left-icon, .by-input__right-icon {
+  flex-basis: 16px;
+  white-space: nowrap;
+}
+
+.gc-04 {
+  color: #ccc;
+}
+
+.order-create-modal__coin-image {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  max-width: none;
+  max-height: none;
+  background: #f7a600;
+  border-radius: 50%;
+}
+
+.by-input__wrapper {
+  margin-left: 8px;
+}
+
+.by-input__wrapper {
+  align-items: center;
+  margin: 0 4px;
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.by-input__inner {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.by-input__inner {
+  background-color: transparent;
+  border: none;
+  color: #000;
+  font: inherit;
+  outline: none;
+  line-height: 14px;
+  width: 100%;
+}
+
+.by-input__inner {
+  transition: color .15s linear;
+  will-change: color;
+}
+
+.amount-input-wrapper .amount-input-delimiter {
+  padding: 0 8px;
+  color: #e2e2e2;
+}
+
+.amount-input-wrapper .amount-input-all {
+  color: #f7a600;
+  cursor: pointer;
+}
+
+.order-create-modal__transfer-icon {
+  margin-left: 26px;
+  position: relative;
+    height: 40px;
+}
+
+.order-create-modal__transfer-icon .order-create-modal__line {
+  border-left: 1px dashed #d4dbde;
+  transform: translateX(0.5px);
+  height: 100%;
+    width: 100%;
+}
+
+.order-create-modal__transfer-icon .fiat-icon--doubledown {
+  left: -5px;
+}
+
+.order-create-modal__transfer-icon .fiat-icon--doubledown {
+  position: absolute;
+  top: 15px;
+  color: #d4dbde;
+  background-color: #fff;
+  font-size: 12px;
+  line-height: 1;
+}
+
+.order-create-modal__button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.order-create-modal__button-wrapper .by-button {
+  margin-right: 16px;
+}
+
+.order-create-modal__button-wrapper .by-button--contained.by-button--brand.by-button--disabled{
+  opacity: .5;
+}
+
+.order-create-modal__button-wrapper .by-button {
+  height: 48px;
+  flex: 1 1;
+}
+
+.order-create-modal__button-wrapper .by-button.acttive{
+  background: #f7a600;
+}
+
+.order-create-modal__button-wrapper .by-button--contained.by-button--brand{
+  color: #000;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.order-create-modal__bottom-tip {
+  margin-top: 12px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.by-button--outlined {
+  border: 1px solid #dbdbdb;
+  background-clip: padding-box;
+}
+
+.order__modal-body{
+  padding: 0 !important;
+}
+
+.buycontainer{
+  padding: 0px !important;
+  
+}
+.buycontainer * {
+  font-family: IBM Plex Sans;
+}
+
+@media (max-width : 991px){
+  .place__order__model{
+    display: block;
+  }
+}

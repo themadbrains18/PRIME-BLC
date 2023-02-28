@@ -1,0 +1,26 @@
+@media screen and (max-width: 1440px) {
+    .reset__password__sec .sec__content .sec__text .sec__logo {
+        padding: 15px 0 15px 10px;
+    }
+    .reset__password__sec .sec__content .sec__text .sec__text__inner {
+        padding: 40px 20px 0px 20px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .reset__password__sec .sec__content .sec__text{
+        display: none;
+    }
+    .reset__password__sec .sec__content .sec__form{
+        width: 100%;
+    }
+    .reset__password__sec .sec__content .sec__form{
+        padding: 0 15px;
+    }
+
+}
+@media screen and (max-width: 575px){
+    .reset__password__sec .sec__content .sec__form form .form__tabs .form__control .send__code{
+        min-width: 28%;
+    }
+}

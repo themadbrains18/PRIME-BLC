@@ -1,0 +1,252 @@
+body .autocomplete-dropdown {
+  position: absolute;
+  z-index: 9999;
+  padding: 8px 0;
+  font-size: 13px;
+  white-space: nowrap;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 6px rgb(0 0 0 / 20%);
+  inset: 0px auto auto 0px;
+  transform: translate(0px, 260px);
+}
+
+.transfer-modal {
+  border-radius: 16px;
+  max-width: 500px;
+  width: 100%;
+
+}
+
+.amount-transfer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.amountform {
+  display: flex;
+  background: #f3f5f7;
+  align-items: center;
+  gap: 10px;
+  padding: 6px;
+border-radius: 8px;
+}
+
+.amountform input {
+
+  background: transparent;
+  font-size: 14px;
+  border: none;
+
+}
+
+.amountform input:focus {
+
+  background: transparent;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.all-btn {
+  color: #eb9f12
+}
+
+.icon-transfer {
+  display: flex;
+  gap: 10px;
+}
+
+.modal-open .modal {
+  overflow-y: none !important;
+}
+
+.modal-header .btn-close {
+  color: #ccc
+}
+
+.modal-header {
+  border-bottom: none !important;
+}
+
+.modal-body {
+
+  padding: 0 32px 32px !important;
+}
+
+.fromtosection {
+  align-items: center;
+  display: flex;
+}
+
+.wallet {
+  display: flex;
+  flex-direction: column;
+}
+
+.coin-transfer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wallet .autocomplete-dropdown {
+  position: absolute;
+  z-index: 9999;
+  padding: 8px 0;
+  font-size: 13px;
+  white-space: nowrap;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 6px rgb(0 0 0 / 20%);
+  inset: 0px auto auto 0px;
+  transform: translate(0px, 72px);
+  max-width: 182px;
+  width: 100%;
+  min-width: fit-content;
+}
+
+.wallet .autocomplete-dropdown2 {
+  position: absolute;
+  z-index: 9999;
+  padding: 8px 0;
+  font-size: 13px;
+  white-space: nowrap;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 6px rgb(0 0 0 / 20%);
+  inset: 0px auto auto 0px;
+  transform: translate(224px, 77px);
+  max-width: 182px;
+  width: 100%;
+  min-width: fit-content;
+}
+
+body .autocomplete-search-results-list {
+  display: inline-block;
+  min-width: 111px;
+  max-height: 125px;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  vertical-align: top;
+  list-style: none;
+}
+
+body .autocomplete-search-result {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 6px 16px;
+  color: #00142a;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.transfer_img {
+  justify-content: center;
+  /* top: 50%; */
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+  margin-top: 17px !important;
+  padding: 5px;
+}
+
+.tolabel {
+  color: #81858c;
+  font-size: 14px;
+}
+
+.inputfrom {
+  display: flex;
+  background-color: #f3f5f7;
+  align-items: center;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.inputfrom-active {
+  border: 1px solid #eb9f12 !important;
+}
+
+.inputfrom input {
+  font-size: 14px;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+
+}
+
+.inputfrom input:focus {
+  background-color: transparent;
+  border-color: #eb9f12;
+}
+.inputfrom div:active{
+  border-color: #eb9f12;
+}
+
+.inputfrom img {
+  height: 12px;
+}
+
+.currentBal {
+  color: rgb(40, 205, 149);
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.transfer-exchange-info {
+  display: flex;
+  margin-top: 5px;
+  font-size: 12px;
+  color: gray;
+  justify-content: space-between;
+}
+
+.transfer-submit-btn {
+  background-color: #eb9f12;
+  font-size: 14px;
+  margin-top: 25px;
+  border-radius: 8px;
+  color: rgba(0, 0, 0, .5);
+  color: rgba(0, 0, 0, .5);
+  padding: 5px;
+}
+
+.transfer-submit-btn button {
+  border: none;
+  box-shadow: none !important;
+}
+
+.form-control:disabled, .inputfrom .form-control[readonly] {
+  background-color: transparent;
+  opacity: 1;
+}
+
+@media screen and (max-width :991px) {
+  .transfer_img {
+    margin-top: 0px !important;
+    transform: rotate(45deg);
+  }
+
+  .wallet .mt-5 {
+    margin-top: 15px !important;
+  }
+
+  .cc {
+    display: none !important;
+  }
+}
+@media (max-width: 425px){
+  .wallet .autocomplete-dropdown2 {
+    transform: translate(45px, 77px);
+  }
+}

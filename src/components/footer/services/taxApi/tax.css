@@ -1,0 +1,207 @@
+.service-tax .container * {
+  font-family: 'IBM Plex Sans';
+}
+
+.tax-api .step {
+  width: 100%;
+  padding: 40px 0 80px;
+  background-color: #fff;
+}
+
+.tax-api .wrapper {
+  position: relative;
+}
+
+.tax-api .wrapper .title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 150%;
+  letter-spacing: .25px;
+  color: #121214;
+}
+
+.tax-api .wrapper .step-containers {
+  margin-top: 24px;
+  display: flex;
+}
+
+.tax-api .wrapper .step-containers .index_item {
+  flex: 1;
+}
+
+
+.tax-api .wrapper .step-containers .index_item .index_item-title {
+  width: 100%;
+  font-family: IBM Plex Sans;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 83px;
+  color: #f7a600;
+}
+
+.tax-api .wrapper .step-containers .index_item .index_item-description {
+  padding-right: 40px;
+}
+
+.tax-api .wrapper .step-containers .index_item .index_item-description {
+  width: 100%;
+  height: calc(100% - 83px - 16px);
+  padding-bottom: 32px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #81858c;
+  box-sizing: border-box;
+  margin-bottom: 0 !important;
+}
+
+.tax-api .wrapper .step-containers .index_item .index_line {
+  position: relative;
+  width: 100%;
+  height: 16px;
+  line-height: 16px;
+}
+
+.tax-api .wrapper .step-containers .index_item .index_line i {
+  position: absolute;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  background: #f7a600;
+  border-radius: 999px;
+  display: inline-flex;
+}
+
+.tax-api .wrapper .step-containers .index_item .index_line span {
+  width: 100%;
+  height: 0;
+  vertical-align: super;
+  border-bottom: 1px solid #adb1b8;
+  display: inline-block;
+}
+
+.tax-api .wrapper .index_button {
+  width: fit-content;
+  margin: 24px auto 0;
+  padding: 12px 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #15192a;
+  text-align: center;
+  background-color: #f7a600;
+  box-shadow: 0 1px 20px rgb(21 25 42 / 8%);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tax-api .tax-partners {
+  width: 100%;
+  padding-bottom: 40px;
+  background-color: #fff;
+}
+
+.tax-api .tax-partners .description {
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: .25px;
+  color: #81858c;
+}
+
+.tax-api .tax-partners .partners-containers {
+  width: 100%;
+  margin-top: 24px;
+  display: flex;
+}
+
+.tax-api .tax-partners .partners-containers .unlogin-pannel {
+  width: 100%;
+  text-align: center;
+}
+
+.tax-api .tax-partners .partners-containers .unlogin-pannel img {
+  width: 275px;
+  height: 246px;
+  display: inline-block;
+}
+
+.tax-api .tax-partners .partners-containers .unlogin-pannel p {
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.tax-api .tax-partners .partners-containers .unlogin-pannel p span {
+  color: #f7a600;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  vertical-align: super;
+}
+
+.tax-api .faq {
+  width: 100%;
+  padding: 48px 0;
+  background-color: #fff;
+}
+
+.tax-api .faq .faq-containers {
+  width: 100%;
+}
+
+.tax-api .faq .faq-containers .index_item {
+  width: 100%;
+  margin-top: 38px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #c7cdd0;
+}
+
+.tax-api .faq .faq-containers .index_item .item-title {
+  position: relative;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #15192a;
+  cursor: pointer;
+  user-select: none;
+}
+
+.tax-api .faq .faq-containers .index_item .item-title img {
+  position: absolute;
+  top: 10px;
+  width: 16px;
+  transition: all .5s ease-in-out;
+}
+
+.tax-api .faq .faq-containers .index_item .item-title img {
+  right: 9px;
+}
+
+.tax-api .faq .faq-containers .index_item.index_open img {
+  transform: rotate(180deg);
+}
+
+.tax-api .faq .faq-containers .index_item.index_open .item-description {
+  margin-top: 18px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #15192a;
+  white-space: pre-wrap;
+  display: block;
+}
+
+.tax-api .faq .faq-containers .index_item .item-description{
+  display: none;
+}
+
+@media (max-width : 768px){
+  .tax-api .wrapper .step-containers{
+    display: block;
+  }
+}

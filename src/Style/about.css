@@ -1,0 +1,593 @@
+/* ==== hero section css start ==== */
+
+.about_hero{
+    padding: 50px 0px 50px;
+    background-image: url('../assets/images/about-us/about-hero.jpg');
+    background-size: contain;
+    background-position: 70% bottom;
+    background-repeat: no-repeat;
+    min-height: 588px;
+    position: relative;
+}
+.about_hero .tmb-container{
+    max-width: 1320px;
+    padding: 0 12px;
+    margin: 0 auto;
+}
+.sec_title {
+    font-size: 40px;
+    line-height: 1em;
+    margin-bottom: 15px;
+}
+.about_hero .sec_main_heading{
+    margin-bottom: 0;
+    color: transparent !important;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    background-image: linear-gradient(180deg, #FF9C2E 0%, #FFC32F 100%) !important;
+    font-size: 60px;
+    line-height: 70px;
+}
+.about_hero .sec_text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.about_hero .sec_img{
+    display: none;
+}
+/* ==== hero section css end ==== */
+
+/* ==== feature section css start ==== */
+.feature_sec{
+    padding: 32px 0 ;
+    background: linear-gradient(180deg,#2C2C2C 0%,#545454 100%);
+}
+.card_wrapper{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.feature_sec .card,
+.tab_pannel_inner .card,
+.pillars_tabs .card
+{
+    width: 30%;
+    padding: 24px 28px;
+    background: linear-gradient(97.5deg,#FFC42E 0%,#FF9C2E 100.81%);
+    border-radius: 16px;
+    min-height: 96px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row;
+}
+.feature_sec .tmb_container{
+    max-width: 1224px;
+    padding: 0 12px;
+    margin:0 auto ;
+}
+.feature_sec .sec_content{
+    display: block;
+}
+.feature_sec .card_icon,
+.tab_pannel_inner .card_icon,
+.pillars_tabs .card_icon
+
+{
+    max-width: 32px;
+}
+.feature_sec .card_text,
+.tab_pannel_inner .card_text,
+.pillars_tabs .card_text
+{
+    width: 100%;
+    text-align: center;
+}
+.feature_sec .card_title,
+.tab_pannel_inner .card_title,
+.pillars_tabs .card_title
+{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.feature_sec .card_info ,
+.tab_pannel_inner .card_info,
+.pillars_tabs .card_info
+{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+/* ==== feature section css end ==== */
+
+/* ==== crypto ark section css start ==== */
+.crypto_ark_sec{
+    padding: 80px 0;
+    position: relative;
+}
+.crypto_ark_sec .tmb_container{
+    max-width: 1144px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+.crypto_ark_sec .sec_head {
+    text-align: center;
+}
+.crypto_ark_sec .sec_main_heading{
+    margin-bottom: 28px;
+}
+.crypto_ark_sec .sec_main_heading span,
+.suite_products_sec .sec_main_heading span,
+.founders_sec .sec_main_heading span,
+.three_pillars_sec .sec_main_heading span
+{
+    color: transparent !important;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    background-image: linear-gradient(180deg, #FF9C2E 0%, #FFC32F 100%) !important;
+}
+.sec_info{
+    margin: 0;
+}
+.crypto_ark_sec .sec_head{
+    margin-bottom: 48px;
+}
+.crypto_ark_sec .sec_content{
+    justify-content: center;
+}
+.tmb_tabs_wrapper  .react-tabs__tab-list{
+    border: none;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.tmb_tabs_wrapper .react-tabs__tab{
+    border: none;
+    border-radius: 0;
+    padding: 0 30px;
+    color: #afa6a6;
+    background: transparent;
+}
+.tmb_tabs_wrapper .react-tabs__tab:not(:last-child){
+    border-right: 1px solid #000;
+}
+.tmb_tabs_wrapper .react-tabs__tab--selected{
+    font-size: 16px;
+    color: #eb9f12;
+    position: relative;
+}
+.tmb_tabs_wrapper .react-tabs__tab:focus:after{
+    display: none;
+}
+.tmb_tabs_wrapper .react-tabs__tab--selected:before{
+    content: '';
+    background-color: #eb9f12;
+    width: calc(100% - 60px);
+    height: 2px;
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.crypto_ark_sec .tab_info {
+    font-size: 22px;
+    text-align: center;
+    line-height: 38px;
+    font-weight: 400;
+}
+.side_img {
+    position: absolute;
+    top: -150px;
+    left: 0;
+    transform: scale(0.5);
+    transform-origin: top left;
+}
+
+/* ==== crypto ark section css end ==== */
+
+/* ==== suite products section css start ==== */
+.suite_products_sec {
+    background: #fff;
+    z-index: 2;
+    position: relative;
+    padding: 120px 0;
+}
+.suite_products_sec .tmb_container{
+    max-width: 1144px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+.suite_products_sec .sec_content {
+    display: block;
+}
+.suite_products_sec .sec_main_heading{
+    text-align: center;
+}
+.product_suite {
+    width: 100%;
+    display: grid;
+    align-items: center;
+    gap: 20px;
+    grid-template-columns: 50px 1fr 150px;
+    padding: 15px 0;
+}
+.product_suite:not(:last-child){
+    border-bottom: 1px solid #2020204d;
+}
+.suite_img{
+    max-width: 48px;
+    width: 100%;
+}
+.suite_heading {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+.suite_info {
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+}
+.suite_cta {
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color:#121214;
+    background: linear-gradient(97.5deg,#FFC42E 0%,#FF9C2E 100.81%);
+    padding: 10px 40px 10px 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.suite_cta img {
+    max-width: 14px;
+    height: 14px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 17px;
+    transition: 0.3s;
+}
+.suite_cta:hover {
+    color: #121214;
+}
+.suite_cta:hover img{
+    right: 14px;
+}
+
+/* ==== suite products section css end ==== */
+
+/* ==== founders sec section css start ==== */
+.founders_sec{
+    background-color: rgba(244,244,244,1);
+    background-image: url('../assets/images/about-us/founder-sec-bg.png');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: top left;
+    position: relative;
+}
+.founders_sec .tmb_container,
+.three_pillars_sec  .tmb_container
+{
+    max-width: 1224px;
+    margin:0 auto;
+    padding: 0 12px;
+}
+.founders_sec .sec_content_inner {
+    display: flex;
+    /* align-items: center; */
+    gap: 20px;
+}
+.founders_sec .sec_content_inner > div {
+    max-width:50%;
+    width: 100%;
+}
+.founders_sec .sec_text{
+    margin: 130px 0 70px;
+}
+.founders_sec .sec_img img {
+    max-width: 420px;
+    position: absolute;
+    top: calc(50% - 90px);
+    transform: translateY(-50%);
+}
+.founders_sec .sec_info {
+    font-size: 24px;
+    line-height: 42px;
+    margin-bottom: 48px;
+}
+.founders_cta_wrapper{
+    width: fit-content;
+}
+.founders_cta_wrapper .suite_cta {
+    padding: 15px 50px 15px 30px;
+}
+.founders_sec .sec_content_inner .sec_img{
+
+    background: url('../assets/images/about-us/founder-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top left;
+}
+.founder_img{
+    display: none;
+}
+
+/* ==== founders sec section css end ==== */
+
+/* ==== three pillars sec sec section css start ==== */
+.three_pillars_sec{
+    padding: 140px 0;
+    background-color: rgba(244,244,244,1);
+    background-image: url('../assets/images/about-us/three-pillar-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+}
+.three_pillars_sec .sec_main_heading{
+    text-align: center;
+}
+.tab_pannel_inner .card,
+.pillars_tabs .card
+{
+    border: unset;
+    flex-direction: column;
+}
+.tabs-for-mobile{
+    display: none;
+}
+.tab_content_left{
+    max-width: 68%;
+    width: 100%;
+}
+.tab_content_right{
+    max-width: 28%;
+    width: 100%;
+}
+.three_pillars_sec .tab_content_wrapper .tab_content_first,
+.three_pillars_sec .tab_content_wrapper .tab_content_second,
+.three_pillars_sec .tab_content_wrapper .content_left_inner,
+.three_pillars_sec .tab_content_wrapper .content_right_inner
+{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.three_pillars_sec .tab_content_wrapper .content_left_inner{
+    margin-bottom: 16px;
+}
+.pillars_tabs .card{
+    width: 100%;
+    justify-content: center;
+}
+.mb-16{
+    margin-bottom: 16px;
+}
+.three_pillars_sec .tab_content_second .tab_content_left{
+    max-width: 28%;
+    width: 100%;   
+}
+.three_pillars_sec .tab_content_second .tab_content_right{
+    max-width: 68%;
+    width: 100%;   
+}
+.three_pillars_sec .card-modifier{
+    height: calc(50% - 16px);
+}
+.three_pillars_sec .tab_content_wrapper .content_right_inner{
+    height: calc(64% - 16px);
+}
+.three_pillars_sec .pillars_tabs .card {
+    background: #fff;
+}
+.three_pillars_sec .pillars_tabs .card.active-card{
+    background: linear-gradient(97.5deg,#FFC42E 0%,#FF9C2E 100.81%);
+}
+.three_pillars_sec .card-modifier-2{
+    height: calc(56% - 16px);
+}
+.tab_cta_wrapper {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+/* ==== three pillars sec section css end ==== */
+
+
+
+/* ==== Responsive Breakpoints ==== */
+@media(max-width:1024px){
+
+    /* feature sec */
+    .feature_sec .card,
+    .tab_pannel_inner .card
+    {
+        width: 40%;
+    }
+}
+@media(max-width:991px){
+    /* founders sec css */
+    .founder_img{
+        display: block;
+        margin: 0 auto 20px;
+    }    
+    .founders_sec .sec_content_inner .sec_img{
+        display: none;
+    }
+    .founders_sec .sec_content_inner > div{
+        max-width: 100%;
+    }
+    .founders_sec .sec_main_heading,
+    .founders_sec .sec_info
+    {
+        text-align: center;
+    }
+    .founders_cta_wrapper{
+        margin: 0 auto;
+    }
+
+    /* three pillars sec  */
+    .tabs-for-desktop{
+        display: none;
+    }
+    .tabs-for-mobile{
+        display: block;
+    }
+    .tab_pannel_inner .card,
+    .pillars_tabs .card
+    {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .tab_pannel_inner .card:not(:last-child){
+        margin-bottom: 20px;
+    }
+    
+}
+@media(max-width:767px){
+    /* hero sec */
+    .about_hero .sec_img{
+        display: block;
+        text-align: center;
+        width: calc(100% + 24px);
+        margin-left: -12px;
+    }
+    .about_hero .sec_img img{
+        width: 100%;
+    }
+    .about_hero{
+        padding: 70px 0 0;
+        background-image: unset;
+        min-height: unset;
+    }
+    .sec_title {
+        font-size: 24px;
+    }
+    .about_hero .sec_main_heading{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .about_hero .sec_text {
+        position: static;
+        transform: unset;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    /* feature sec */
+    .feature_sec .card,
+    .tab_pannel_inner .card,
+    .pillars_tabs .card
+    {
+        width: 70%;
+    }
+    .feature_sec .card_icon,
+    .tab_pannel_inner .card_icon,
+    .pillars_tabs .card_icon
+
+    {
+        max-width: 42px;
+    }
+
+    /* crypto ark sec */
+    .crypto_ark_sec{
+        padding: 80px 0 0px;    
+    }
+    .crypto_ark_sec .sec_main_heading{
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .crypto_ark_sec .tab_info {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .tmb_tabs_wrapper .react-tabs__tab{
+        padding: 0 20px;
+    }
+    .tmb_tabs_wrapper .react-tabs__tab--selected:before{
+        width: calc(100% - 40px);
+    }
+    .crypto_ark_sec  .side_img{
+        display: none;
+    }
+    .crypto_ark_sec .sec_head {
+        margin-bottom: 38px;
+    }
+    .tmb_tabs_wrapper .react-tabs__tab-list{
+        margin-bottom: 25px;
+    }
+    /*  suite products  */
+    .suite_products_sec{
+        padding: 70px 0;
+    }
+    .suite_products_sec .sec_main_heading,
+    .three_pillars_sec .sec_main_heading
+    {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 28px;
+        text-align: center;
+    }
+
+    /* founder sec css */
+    .founders_sec{
+        background-size: 140px;
+    }
+    .founders_sec .sec_text {
+        margin: 70px 0 70px;
+    }
+    .founders_sec .sec_main_heading{
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 28px;
+    }
+    .founders_sec .sec_info {
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:575px){
+    
+    /* feature sec */
+    .feature_sec .card,
+    .tab_pannel_inner .card,
+    .pillars_tabs .card
+
+    {
+        width: 80%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* suite products section */
+    .product_suite {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 15px;
+    }
+    .product_suite > div{
+        width: 100%;    
+        max-width: 100%;
+    }
+    .suite_img img{
+        width: 48px;
+    }
+    .suite_cta {
+        display: inline-block;
+    }
+    .suite_heading {
+        margin-bottom: 12px;
+    }
+}
+/* ==== Responsive Breakpoints ==== */
+
+
+
+

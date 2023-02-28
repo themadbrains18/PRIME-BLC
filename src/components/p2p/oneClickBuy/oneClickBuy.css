@@ -1,0 +1,823 @@
+@keyframes move {
+  from {
+    transform: translate(0);
+  }
+
+  to {
+    transform: translate(20px);
+  }
+}
+
+/* best place token css start */
+
+.best_place {
+  padding: 60px 0 20px;
+  background: #fff;
+}
+
+.best_place .best_place_container {
+  max-width: 1224px;
+  margin: 0 auto;
+  padding: 0 12px;
+
+}
+
+.best_place_cont {
+  padding-top: 50px;
+  gap: 20px;
+
+}
+
+.best_place_content {
+  display: flex;
+  flex-direction: column;
+  max-width: 368px;
+  width: 100%;
+  padding: 0 32px 16px;
+  text-align: center;
+  background: #f5f7fa;
+  border-radius: 16px;
+  box-sizing: border-box;
+
+}
+
+.best_place_content img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: -32px auto 10px;
+  pointer-events: none;
+}
+
+.best_place_content .title {
+  font-size: 20px;
+  color: #121214;
+  line-height: 28px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  margin-top: 16px;
+}
+
+.best_place_content .subtitle {
+  font-size: 14px;
+  color: #81858c;
+  line-height: 22px;
+  font-weight: 400;
+
+}
+
+/* best place token css end */
+
+
+/* faq css start */
+.faq-wrapper {
+  padding: 120px 0 20px;
+  background: #fff;
+}
+
+.faq-wrapper .faq-container {
+  max-width: 1224px;
+  margin: 0 auto;
+  padding: 0 12px;
+
+}
+
+.faq-container-content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.faq-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.faq-content-item {
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  line-height: 26px;
+  padding-bottom: 48px;
+  padding-right: 25px;
+
+}
+
+.faq-content-item:hover {
+  color: #f4a203
+}
+
+.faq-btn {
+  padding: 0 49px 0 4px;
+  display: flex;
+  align-items: center;
+  line-height: 48px;
+  font-weight: 600;
+  color: #eb9f12;
+  font-size: 18px;
+}
+
+.faq-btn span svg {
+  margin-top: -3px;
+}
+
+span.faq-btn_icon {
+  animation: move 1s alternate infinite;
+}
+
+/* faq css end */
+
+/* One click buy sec css start */
+.one_click_by_sec_wrapper .tmb-header {
+  background: #25262b;
+}
+
+.one_click_by_sec_wrapper {
+  padding: 15px 0 20px;
+  background-color: rgb(245, 247, 250);
+}
+
+.one_click_by_sec_wrapper .p2p__trading__header .tmb_container {
+  max-width: 1224px;
+  margin: 0 auto;
+  padding: 0 12px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.one_click_by_sec_wrapper .token_list_wrapper .tmb__token_container {
+  max-width: 1224px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.one_click_by_sec_wrapper .tmb__buy__sell_container {
+  max-width: 1224px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+
+
+.one_click_by_sec_wrapper .react-tabs__tab-list {
+  margin: 0;
+  border: unset;
+  display: flex;
+  gap: 35px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  align-items: flex-start;
+}
+
+.one_click_by_sec_wrapper .react-tabs__tab {
+  border: none;
+  color: #ccc;
+  font-size: 16px;
+  border-bottom: 2px solid transparent;
+  padding:5px 0;
+  line-height: 1;
+}
+
+.one_click_by_sec_wrapper .react-tabs__tab.react-tabs__tab--selected {
+  color: #f4a203;
+  border-bottom: 2px solid #f4a203;
+  background-color: transparent;
+}
+
+.one_click_tab_content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.one_click_tab_content>.tab_text {
+  max-width: 58%;
+  width: 100%;
+}
+
+.one_click_tab_content>.tab_form {
+  max-width: 520px;
+  width: 100%;
+}
+
+.one_click_tab_content .list_item {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.one_click_tab_content li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.one_click_tab_content .sec_main_heading {
+  margin-bottom: 30px;
+  max-width: 410px;
+}
+
+.one_click_tab_content .exchange_form {
+  border-radius: 16px;
+  /* padding: 7px 20px 20px; */
+  background: #fff;
+  /* overflow: hidden; */
+}
+
+.one_click_tab_content .exchange_form .react-tabs__tab {
+  max-width: 50%;
+  width: 100%;
+  margin: auto !important;
+  background: transparent;
+  text-align: center;
+}
+
+.one_click_tab_content .exchange_form .react-tabs__tab-list {
+  gap: 0;
+  min-height: 80px;
+  background-size: contain !important;
+}
+
+.one_click_tab_content .exchange_form .buy-class {
+  background: #e9edf2 url('./assets/tab-buy-active.png') top no-repeat;
+}
+
+.one_click_tab_content .exchange_form .sell-class {
+  background: #e9edf2 url('./assets/tab-sell-active.png') top no-repeat;
+}
+
+.one_click_tab_content .exchange_form .react-tabs__tab {
+  border: none;
+  color: #adb1b8;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.one_click_tab_content .exchange_form .react-tabs__tab.react-tabs__tab--selected {
+  background-color: transparent;
+  color: #121214;
+}
+
+.one_click_by_sec .exchange_form .react-tabs__tab-panel {
+  padding: 32px;
+}
+
+.one_click_by_sec .spend_wrapper {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  background-color: #f3f5f7;
+  border-radius: 8px;
+  justify-content: space-between;
+  gap: 20px;
+  position: relative;
+}
+
+.one_click_by_sec .dropdown_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  min-width: 130px;
+  justify-content: center;
+}
+
+.one_click_by_sec .input_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.one_click_by_sec .button_img svg {
+  width: 24px;
+}
+
+.button_text span {
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #121214;
+}
+
+.button_icon img {
+  width: 12px;
+}
+
+.input_label {
+  margin: 0;
+  font-size: 14px;
+  color: #121214;
+}
+
+.spend_input {
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  background-color: transparent;
+  color: #121214;
+}
+
+.spend_input:focus {
+  outline: none;
+  border: none;
+}
+
+.validation_msg {
+  margin: 8px 0  !important ;
+  color: #e04040;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.validation_msg.recive {
+  font-size: 14px;
+  color: #adb1b8;
+  margin-top: 12px;
+}
+
+.payment_method_heading {
+  font-size: 16px;
+  color: #121214;
+  font-weight: 500;
+}
+
+.payment_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 16px;
+  position: relative;
+  margin-top: 12px;
+  background: #fff;
+  border: 1px solid #d4dbde;
+  border-radius: 8px;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.payment_inner .payment_img {
+  max-width: 24px;
+  width: 100%;
+}
+
+.payment_inner svg {
+  max-width: 100%;
+}
+
+.payment_inner .payment_text {
+  max-width: calc(100% - 24px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.payment_inner .payment_text .balance {
+  margin: 0;
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.payment_inner .payment_text .value {
+  margin-top: 4px;
+  margin-bottom: 0;
+  font-size: 12px;
+  color: #666;
+}
+
+.icon_wrapper img {
+  width: 12px;
+}
+
+.ars_balance {
+  font-size: 12px;
+  color: #666;
+  margin: 8px 0 0 0;
+}
+
+.ars_balance a,
+.ars_balance a:hover {
+  color: #f4a203;
+}
+
+.one_click_by_sec .cta_wrapper {
+  margin: 32px 0 0;
+}
+
+.one_click_by_sec .cta_wrapper .submit_cta {
+  width: 100%;
+  font-size: 16px;
+  background-color: #f7a600;
+  line-height: 28px;
+  border-radius: 8px;
+  font-weight: 700;
+  padding: 10px;
+  transition: 0.3s;
+  border: 2px solid transparent;
+}
+
+.one_click_by_sec .cta_wrapper .submit_cta:hover {
+  /* background-color:#f7a60094; */
+  background: transparent;
+  border: 2px solid #f7a600;
+  color: #f7a600;
+}
+
+.coin_list_dropdown {
+  position: absolute;
+  top: 100%;
+  background: #fff;
+  z-index: 1;
+  max-width: 100%;
+  width: 100%;
+  left: 0;
+  border-radius: 8px;
+  box-shadow: 0px 0px 12px #ccccccbf;
+}
+
+.coin_list_inner {
+  padding: 8px 16px;
+}
+
+.search_feild {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ededed;
+  outline: none;
+  position: relative;
+  padding: 8px 8px 8px 33px;
+  font-size: 14px;
+}
+
+.search_feild:focus {
+  border-color: #f4a203;
+}
+
+.list_head {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.list_head .fa-search {
+  opacity: 0.3;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+  left: 12px;
+}
+
+.list_content {
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  /* width: calc(100% + 32px); */
+  /* margin-left: -16px; */
+  margin-top: 8px;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.list_content:hover {
+  background-color: #f3f5f7;
+}
+
+.list_content .list_img {
+  width: 24px;
+}
+
+.list_content .list_text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  width: calc(100% - 24px);
+}
+
+.list_content .list_text p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #333;
+}
+
+.list_content .list_text p:last-child {
+  color: #ccc;
+}
+
+.list_content svg {
+  max-width: 24px;
+  height: 24px;
+}
+
+.payment_method_wrapper {
+  position: relative;
+}
+
+.payment_method_wrapper img{
+  width : 16px;
+}
+
+.coin_list_dropdown ul {
+  padding: 0;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.one_click_by_sec {
+  padding: 80px 0 40px;
+}
+
+/* One click buy sec css start */
+
+/* Responsive Breakpoints */
+
+@media(max-width:1120px) {
+  .one_click_tab_content {
+    flex-direction: column;
+  }
+
+  .one_click_tab_content>.tab_text {
+    max-width: 100% !important;
+  }
+
+  .one_click_tab_content .sec_main_heading {
+    max-width: 100%;
+  }
+
+  .one_click_tab_content {
+    gap: 70px;
+  }
+}
+.tmb--modifier-md {
+  padding: 0 !important;
+}
+.tmb-s-modifier {
+  padding: 0 !important;
+}
+.spend_wrapper .button_img{
+  height: 24px;
+}
+.spend_wrapper .button_img svg{
+  margin-top: -12px;
+}
+.hide-on-desktop{
+  display: none;
+}
+.tmb-menu{
+  color: #fff !important;
+}
+.tmb-menu:hover + div{
+  display: block !important;
+}
+.tmb-menu + div:hover{
+  display: block !important;
+}
+@media (max-width:768px) {
+  .hide-on-desktop{
+    display: block;
+  }
+  .tmb--modifier-md{
+    display: none;
+  }
+  .one_click_by_sec_wrapper .p2p__trading__header .tmb_container{
+    gap: 35px;
+  }
+  .onclick_header > .tmb_container{
+    display: flex !important;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+
+  }
+  .onclick_header{
+    padding: 12px 0;
+  }
+  .tmb_top_header.p2p__trading__header .onclick_header > .tmb_container > ul{
+    min-width: fit-content;
+    margin: 0 !important;
+  }
+  .advertisr_list table{
+    width: max-content;
+  }
+  span.avalible_limit {
+      display: block;
+  }
+  .all_payment_methods .coin_cta{
+    max-width: 100%;
+  }
+  .button_text span {
+    font-size: 18px;
+  }
+
+  .faq-content {
+    grid-template-columns: 1fr;
+  }
+
+  .best_place_cont {
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+
+  .best_place_container h1 {
+    text-align: center;
+  }
+
+  .best_place_content {
+    max-width: 90%;
+  }
+
+  /* .one_click_by_sec .tmb_top_header > div > .react-tabs__tab-panel{
+    padding: 0;
+  } */
+  .one_click_tab_content {
+    gap: 40px;
+  }
+
+  .one_click_by_sec_wrapper {
+    padding: 38px 0 20px;
+  }
+}
+
+@media (max-width:600px) {
+  .one_click_tab_content .exchange_form .react-tabs__tab-list {
+    min-height: 71px;
+    background-size: 100% 100% !important;
+  }
+
+  .one_click_tab_content .exchange_form .react-tabs__tab {
+    font-size: 22px;
+  }
+
+  .one_click_tab_content .exchange_form .sell-class {
+    background-position: bottom right;
+  }
+
+  .one_click_tab_content .exchange_form .buy-class {
+    background-position: bottom left;
+  }
+
+  .one_click_by_sec .spend_wrapper {
+    flex-direction: column;
+  }
+
+  .one_click_by_sec .spend_wrapper>div {
+    width: 100%;
+  }
+
+  .one_click_by_sec .exchange_form .react-tabs__tab-panel {
+    padding: 12px;
+  }
+}
+
+/* Responsive Breakpoints */
+
+
+.one_click_by_sec_wrapper .drop-box {
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  background-color: #fff;
+  padding: 15px;
+  opacity: 1;
+  visibility: visible;
+  display: none;
+  box-shadow: 0px 0px 20px 0px #ddd;
+  transition: all 0.1s linear;
+  border-radius: 8px;
+}
+
+.one_click_by_sec_wrapper .flex-nowrap li:hover .drop-box {
+  opacity: 1;
+  visibility: visible;
+  display: block;
+  z-index: 1;
+ 
+  
+}
+.one_click_by_sec_wrapper .flex-nowrap li:hover {
+  background-color: #ddd;
+  
+}
+.one_click_by_sec_wrapper .flex-nowrap li {
+  border-radius: 8px;
+  padding: 2px 12px;
+}
+
+.one_click_by_sec_wrapper .drop-box-2 {
+  width: 200px;
+}
+
+
+
+.qwe>.nav-item {
+  position: relative;
+}
+
+.qwe>.nav-item .nav-link {
+  padding: 0;
+}
+
+.qwe>.nav-item .nav-link .title {
+  color: #000;
+}
+
+.p2p__Verification__model .identity__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #f5f5f5;
+  border-radius: 4px;
+  gap: 20px;
+}
+
+.p2p__Verification__model .identity__info .info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.p2p__Verification__model .identity__info .title {
+  color: #000;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.p2p__Verification__model .identity__info .avatar{
+  width: 40px;
+}
+
+.p2p__Verification__model {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.p2p__Verification__model .identity__info .action button {
+  height: 28px;
+  padding: 0 8px;
+  color: #000;
+  background: #f4a203;
+  font-size: 12px;
+  line-height: 16px;
+  white-space: nowrap;
+  border-color: #f4a203;
+  border-radius: 4px;
+}
+
+.p2p__Verification__model .identity__info .item-completed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 28px;
+  padding: 0 8px;
+  border-radius: 4px;
+  color: #24ae64;
+  background-color: #f2faf6;
+  font-size: var(--size-12);
+  white-space: nowrap;
+}
+.p2p__Verification__model .identity__info .item-completed .fiat-iconfont {
+  margin-right: 4px;
+  font-size: 13px;
+}
+
+.one_click_by_sec_wrapper .drop-box-2 .nav li{
+  padding: 10px !important;
+}
+.qwe .nav-item {
+  padding: 0px 10px !important;
+}
+
+.drop-box-2 .nav{
+  gap:10px;
+}
+
+.dropdown_wrapper .button_img img{
+  width: 24px;
+}
+
+.exchange_form .toast__container .toast.show{
+  width: 100% !important;
+}
+
+.onclick_header{
+  background-color: #121214;
+}
+

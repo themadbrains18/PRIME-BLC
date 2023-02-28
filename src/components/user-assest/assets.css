@@ -1,0 +1,794 @@
+.assets-main-container {
+  display: flex;
+  margin-top: 15px;
+}
+
+/* Left Side Pannel css */
+.assets-left-pannel {
+  border-right: 1px solid #ededed;
+}
+
+.assets-left-pannel {
+  /* display: none; */
+  position: relative;
+  max-width: 250px;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #fafafa;
+  transition: 0.3s;
+}
+@media(min-width:769px){
+  .assets-left-pannel.hide{
+    max-width: 80px !important;
+    width: 100%;
+    transition: 0.3s;
+  }
+}
+@media(min-width:769px){
+  .assets-left-pannel .remove__link{
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+  }
+}
+.assets-left-pannel .side-panel__menubtn,
+.assets-left-pannel .side-panel__order-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 54px;
+  padding: 0 16px;
+  color: #999;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.assets-left-pannel .side-panel__menubtn .side-panel__menu-icon {
+  cursor: pointer;
+}
+
+.assets-left-pannel .side-panel__icon {
+  margin-right: 8px;
+}
+
+.assets-left-pannel .side-panel__icon {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+}
+
+.assets-left-pannel ul {
+  color: #333;
+  font-size: 13px;
+  padding-left: 0 !important
+}
+
+.assets-left-pannel ul li {
+  padding-left: 10px !important;
+  display: flex;
+  height: 54px;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.assets-left-pannel ul .item-selected {
+  color: #f7a600;
+}
+
+.assets-left-pannel ul li a {
+  display: flex;
+  align-items: center;
+  position: relative;
+  transition: all 0.3s ease;
+  background-color: transparent !important;
+  border: unset;
+  justify-content: flex-start !important;
+  width: 100%;
+  gap: 10px;
+  position: relative;
+}
+.assets-left-pannel ul li a  p{
+  white-space: nowrap;
+  word-wrap: none;
+}
+.remove__link p {
+  margin: 0;
+}
+.assets-left-pannel ul li a {
+  background: transparent;
+  margin: 0 5px;
+  font-size: 16px;
+  border-radius: 7px;
+}
+
+.assets-left-pannel ul li a .icon {
+  min-width: 40px;
+  min-height: 40px;
+  display: flex;
+  margin: 0 ;
+  padding:0;
+  font-size: 16px;
+  color: rgb(73, 73, 73);
+  border-radius: 7px;
+  border: 2px solid transparent;
+  background-color: #eb9f12;
+}
+.assets-left-pannel ul li a .icon span{
+  margin: auto;
+}
+
+.assets-left-pannel .icon {
+  width: 40px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.assets-left-pannel ul li p {
+  font-size: 14px;
+  text-align: start;
+}
+@media(min-width:769px){
+  .assets-left-pannel ul li a .link p {
+    color: #999;
+  }
+}
+.assets-left-pannel ul li a .link p {
+  font-size: 14px;
+  text-align: start;
+  margin-bottom: 0px;
+}
+
+.assets-left-pannel ul li:hover a .icon {
+  color: #fff !important;
+}
+
+.assets-left-pannel .link:hover p {
+  color: #eb9f12 !important;
+}
+
+.assets-left-pannel ul .item-selected a .icon {
+  color: #fff;
+}
+
+.assets-left-pannel ul .item-selected a .link p {
+  color: #eb9f12;
+}
+
+
+
+
+
+/* Overview main pannel css */
+@media(min-width:769px){
+  .assets-left-pannel.hide + .assets-main-body{
+    width: 100%;
+    max-width: calc(100% - 80px);
+  }
+}
+.assets-main-body {
+  width: 100%;
+  max-width: calc(100% - 250px);
+  /* max-width: 100%; */
+}
+.overview__container {
+  position: relative;
+  padding: 20px 20px 83px;
+
+}
+
+.overview__container .overview__container-top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid #efefef;
+  border-radius: 10px;
+  box-shadow: 0 4px 44px rgb(0 0 0 / 4%);
+}
+
+.overview__container .overview__container-top .overview__equity-card {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 44px rgb(0 0 0 / 4%);
+}
+
+.overview__equity-card .overview__equity-card-top {
+  color: #000;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.overview__equity-card-top .overview__equity-card-account {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.skynetPoint {
+  margin-left: 12px;
+}
+
+.skynetPoint.anticon {
+  display: inline-block;
+  color: inherit;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.overview__equity-card .overview__equity-card-bottom {
+  display: flex;
+}
+.overview__equity-card_inner {
+  display: flex;
+  align-items: center;
+  margin-top: 38px;
+  justify-content: space-between;
+}
+.overview__equity-card-bottom .overview__equity-card-equity {
+  min-width: 220px;
+}
+
+.overview__equity-card-bottom .overview__equity-card-equity .overview__equity-card-total-center {
+  display: flex;
+  align-items: flex-end;
+  color: #101014;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 28px;
+}
+
+.overview__equity-card-bottom .overview__equity-card-equity .overview__equity-card-total-center .overview__equity-card-total-center-unit {
+  margin-left: 4px;
+  margin-bottom: 1px;
+  color: #101014;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.overview__equity-card-bottom .overview__equity-card-equity .overview__equity-card-total-center .overview__equity-card-total-bottom {
+  /* margin-left: 4px;
+  margin-top: 12px; */
+  color: rgba(0, 0, 0, .4);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.overview__equity-card .overview__equity-card-opt {
+  right: 35px;
+}
+
+.overview__equity-card .overview__equity-card-opt {
+  display: flex;
+  align-items: center;
+  color: #f7a600;
+  gap: 10px;
+}
+
+
+
+.overview__equity-opt-btn {
+  height: 44px;
+  padding: 0 16px;
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+  width: 100%;
+}
+
+.overview__equity-buy-btn,
+.overview__equity-buy-btn:hover {
+  padding: 0 16px;
+  color: #101014;
+  font-weight: 600;
+  background: #f7a600;
+  border: none;
+  border-radius: 4px;
+}
+
+.overview__asset-records {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+  overflow: hidden;
+  display: flex;
+}
+
+.overview__list {
+  float: left;
+}
+
+.overview__list {
+  width: 68%;
+}
+
+.overview__list-title {
+  display: flex;
+  align-items: center;
+  height: 24px;
+  color: #000;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.overview__list-title-line {
+  margin-right: 12px;
+}
+
+.overview__list-title-line {
+  display: inline-block;
+  width: 2px;
+  height: 16px;
+  background: #f7a600;
+  border-radius: 2px;
+}
+
+.overview__list-asset {
+  display: grid;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #f1f1f1;
+  grid-template-columns: auto 1fr 1fr;
+}
+
+.overview__list-asset-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(0deg, hsla(0, 0%, 100%, .9), hsla(0, 0%, 100%, .9)), #f7a600;
+  border-radius: 8px;
+}
+
+.overview__list-asset-icon .icon {
+  margin-bottom: 0;
+}
+
+.overview__list-asset-equity {
+  margin-left: 20px;
+}
+
+.overview__list-asset-equity-account-name {
+  height: 24px;
+  color: #666;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.overview__list-asset-equity-asset {
+  display: flex;
+  height: 26px;
+  margin-top: 4px;
+  line-height: 26px;
+}
+
+.overview__list-asset-equity-btc {
+  color: #000;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.overview__list-asset-equity-usd {
+  margin-left: 4px;
+}
+
+.overview__list-asset-equity-usd {
+  color: #999;
+  font-size: 12px;
+}
+
+.overview__list-asset-opt {
+  text-align: right;
+}
+
+.overview__list-asset-opt {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+/* .overview__list-asset-opt .opt-primary-btn:enabled {
+  margin-left: 12px;
+} */
+
+.overview__list-asset-opt .opt-primary-btn:enabled {
+  height: 44px;
+  padding: 0 14px;
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.ant-btn>span {
+  display: inline-block;
+}
+
+.overview__recent-records {
+  float: right;
+}
+
+.overview__recent-records {
+  width: calc(32% - 40px);
+  min-width: 258px;
+}
+
+.overview__recent-records-title,
+.overview__recent-records-title-left {
+  display: flex;
+  align-items: center;
+  min-height: 24px;
+  color: #000;
+  font-size: 16px;
+}
+
+.overview__recent-records-title {
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.overview__recent-records-title-left-line {
+  margin-right: 12px;
+}
+
+.overview__recent-records-title-left-line {
+  width: 2px;
+  height: 16px;
+  background: #f7a600;
+  border-radius: 2px;
+}
+
+.overview__recent-records-title-left {
+  line-height: 24px;
+}
+
+.overview__recent-records-title,
+.overview__recent-records-title-left {
+  display: flex;
+  align-items: center;
+  min-height: 24px;
+  color: #000;
+  font-size: 16px;
+}
+.overview__recent-records-title{
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+}
+
+.overview__recent-records-title-right {
+  text-align: right;
+}
+
+.overview__recent-records-title-right {
+  flex: 1 1;
+  align-items: center;
+  color: #f7a600;
+  font-size: 14px;
+}
+
+.table__no-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.table__no-data img {
+  width: 160px;
+  height: 120px;
+  margin-top: 90px;
+}
+
+.table__no-data p {
+  margin-top: 20px;
+  color: #999;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+}
+
+.available-card-level-total-top {
+  display: flex;
+  color: #999;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.main__account__container .overview__equity-card-total-center,
+.trading__account__container .overview__equity-card-total-center,
+.funding__account__container .overview__equity-card-total-center {
+  display: flex;
+  align-items: baseline;
+  margin-top: 8px;
+  color: #101014;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  line-height: 28px !important;
+}
+
+.account__wallet__list {
+  height: 100%;
+  margin-top: 20px;
+  padding-bottom: 60px;
+  background: #fff;
+  border-radius: 8px;
+}
+.account__wallet__list__info {
+  overflow-x: auto;
+}
+.account__wallet__list__tool {
+  padding: 0 24px 16px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 12px 12px 0 0;
+}
+
+.account__wallet__list__tool .ant-input-affix-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-width: 0;
+  padding: 4px 11px;
+  color: rgba(0, 0, 0, .65);
+  font-size: 14px;
+  line-height: 1.5715;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  transition: all .3s;
+  display: inline-flex;
+}
+
+.account__wallet__list__tool .ant-input-affix-wrapper {
+  width: 220px;
+  height: 36px;
+  border: 1px solid #ededed;
+}
+
+.account__wallet__list__tool .ant-input-affix-wrapper-lg {
+  padding: 6.5px 11px;
+  font-size: 16px;
+}
+
+.account__wallet__list__tool .ant-input-affix-wrapper:before {
+  width: 0;
+  visibility: hidden;
+  content: "\a0";
+}
+
+.account__wallet__list__tool .ant-input-affix-wrapper .ant-input-prefix {
+  color: #989898;
+}
+
+.account__wallet__list__tool .ant-input-prefix {
+  margin-right: 4px;
+}
+
+.account__wallet__list__tool .ant-input-prefix,
+.ant-input-suffix {
+  display: flex;
+  flex: none;
+  align-items: center;
+}
+
+.account__wallet__list__tool .ant-input-affix-wrapper input {
+  color: #000;
+  font-weight: 500;
+  font-size: 14px;
+  caret-color: #ffb11a;
+}
+
+.account__wallet__list__tool .ant-input-affix-wrapper>input.ant-input {
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+.ant-input:placeholder-shown {
+  text-overflow: ellipsis;
+}
+
+.ant-input-clear-icon:last-child {
+  margin-right: 0;
+}
+
+.anticon[tabindex] {
+  cursor: pointer;
+}
+
+.ant-input-clear-icon-hidden {
+  visibility: hidden;
+}
+
+.ant-input-clear-icon {
+  margin: 0 4px;
+  color: rgba(0, 0, 0, .25);
+  font-size: 12px;
+  vertical-align: -1px;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+.account__wallet__list__info__header {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  width: 100%;
+  background: #f5f5f5;
+  padding-left: 8px;
+  align-items: center;
+}
+
+.account__wallet__list__info__header span {
+  color: #999;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.account__wallet__list__info__row{
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+  padding-left: 8px;
+  align-items: center;
+  border-bottom: 1px solid #ededed;
+}
+
+.account__wallet__list__info__row span{
+  font-size: 14px;
+}
+
+.column0 {
+  flex: 1 1 120px;
+  min-width: 100px;
+}
+
+.column1 {
+  flex: 1 1 220px;
+  min-width: 200px;
+}
+
+.column2 {
+  flex: 1 1 220px;
+  min-width: 200px;
+}
+.column3 {
+  flex: 1 1 220px;
+  min-width: 200px;
+}
+.column4 {
+  min-width: 450px;
+}
+
+.account__wallet__list__info__row .column4{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.account__wallet__list__info__row .column4 button{
+  font-size: 14px;
+    padding: 4px 12px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+}
+.account__wallet__list__info__row .column4 button:hover{
+  color: #f7a600;
+  border-color: #f7a600;
+}
+.responsive_toggle {
+  padding: 15px;
+  background: #fff;
+  border: 1px solid #efefef;
+  border-radius: 10px;
+  box-shadow: 0 4px 44px rgb(0 0 0 / 4%);
+  margin-bottom: 20px;
+  display: none;
+}
+
+/* Responsive Breakpoints */
+@media (max-width : 1024px) {
+  .overview__asset-records {
+    flex-direction: column;
+  }
+}
+@media (max-width : 991px) {
+  .overview__list-asset-opt {
+    grid-column: 1 / span 2;
+    text-align: start;
+    margin-top: 20px;
+    justify-content: flex-start;
+}
+.overview__recent-records{
+  max-width: 100%;
+  width: 100%;
+}
+.overview__recent-records-title-left-line {
+  margin-right: 5px;
+}
+  .overview__equity-card_inner{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .overview__list-asset{
+    grid-template-columns: auto 1fr;
+  }
+  .overview__list{
+    width: 100%;
+  }
+}
+@media (max-width : 768px) {
+  .responsive_toggle {
+    display: block;
+  }
+  .assets-main-container {
+    margin-top: 35px;
+  }
+  .overview__equity-card .overview__equity-card-opt{
+    flex-direction: column;
+    width: 100%;
+  }
+  .overview__equity-card-bottom .overview__equity-card-equity .overview__equity-card-total-center{
+    font-size: 15px !important;
+    line-height: 28px;
+  }
+  .overview__equity-card-bottom .overview__equity-card-equity .overview__equity-card-total-center .overview__equity-card-total-center-unit,
+  .overview__equity-card-bottom .overview__equity-card-equity .overview__equity-card-total-center .overview__equity-card-total-bottom
+  {
+    margin-bottom: 2px;
+    font-size: 14px;
+    
+  }
+  .overview__equity-card-top .overview__equity-card-account{
+    display: flex;
+    align-items: center;
+  }
+  .assets-left-pannel {
+      position: fixed;
+      left: -100%;
+      top: 77px;
+      z-index: 9;
+      min-height: 100vh;
+      height: 100%;
+  }
+  .assets-left-pannel.show {
+      left: 0;
+  }
+  .assets-main-body{
+    max-width: 100%;
+  }
+}
+@media (max-width : 480px) {
+  .overview__list-asset-opt{
+    flex-direction: column;
+  }
+}
+@media (max-width : 1120px) {
+  .account__wallet__list__info__row{
+    width: fit-content !important;
+  }
+  .account__wallet__list__info__header {
+    width: fit-content !important;
+  }
+}

@@ -1,0 +1,374 @@
+.trade__TradeContainer .container * {
+  font-family: 'IBM Plex Sans';
+}
+
+.trade__TradeContainer .main__container.container-padding {
+  padding: 120px 0px 80px;
+}
+
+.main__container .trade__header .main__title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color: rgb(18, 18, 20);
+  text-align: center;
+}
+
+.main__container .trade__header .trade__title {
+  margin-bottom: 70px;
+}
+
+.main__container .trade__features {
+  display: flex;
+  margin: 0px auto 64px;
+}
+
+.main__container .trade__features .trade__advantages-item {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.trade__features .trade__advantages-item .trade__advantages-img {
+  width: 126px;
+  height: 126px;
+}
+
+.trade__features .trade__advantages-item .trade__advantages-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgb(18, 18, 20);
+  margin-top: 34px;
+  text-align: center;
+}
+
+.main__container .trade__features .trade__advantages-divide-line {
+  position: relative;
+  top: 60px;
+  display: inline-block;
+  min-width: 180px;
+  height: 1px;
+  background-image: url(/src/components/footer/services/assets/img/gray-divide-line.svg);
+  background-position: center center;
+  background-size: 100%;
+}
+
+.main__container .trade__advantages {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  gap : 30px;
+}
+
+.trade__advantages .trade_card__box {
+  overflow: hidden;
+  height: 258px;
+  box-shadow: rgb(0 0 0 / 5%) 0px 4px 40px;
+  border-radius: 8px;
+}
+.trade__advantages .trade_card__box .card__title {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: rgb(18, 18, 20);
+  padding: 20px 20px 0px 0px;
+}
+
+.trade__advantages .trade_card__box .card__title .card__border {
+  display: inline-block;
+  position: relative;
+  left: -2px;
+  width: 4px;
+  height: 17px;
+  background: rgb(247, 166, 0);
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.trade__advantages .trade_card__box .card__content-bg {
+  padding: 20px;
+}
+
+.trade__advantages .trade_card__box .card__content-bg .card__content-top {
+  display: flex;
+  align-items: flex-end;
+}
+
+.card__content-top .card__count {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 32px;
+  color: rgb(18, 18, 20);
+}
+
+.card__content-top .card__unit {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: rgb(18, 18, 20);
+  margin-left: 8px;
+}
+
+.trade__advantages .trade_card__box .card__content-bg .section__desc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: rgb(129, 133, 140);
+  margin-top: 20px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+
+.institution__contained-btn.institution-trade__btn {
+  min-width: 200px;
+  display: block;
+  height: 48px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgb(18, 18, 20);
+  margin: 32px auto 0px;
+}
+
+.institution__contained-btn {
+  display: inline-flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background: rgb(247, 166, 0);
+  border-radius: 5px;
+  height: 48px;
+  padding: 0px 16px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: rgb(16, 16, 20);
+  cursor: pointer;
+  border: none;
+  user-select: none;
+  transition: all 0.3s linear 0s;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.solution__Container .solution_main_container{
+  margin: 0px auto;
+}
+
+.solution__main__title{
+  font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: rgb(18, 18, 20);
+    text-align: center;
+}
+
+.institution-solution__content {
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  margin: 64px 0px 54px;
+  gap: 30px;
+}
+.institution-card__box:hover {
+  box-shadow: rgb(247 166 0 / 20%) 0px 2px 32px;
+}
+
+.institution-card__box:hover .institution-card__img {
+  opacity: 0;
+}
+.institution-card__box:hover .institution-card__content-bg {
+  transform: translateY(-100px);
+}
+.institution-card__box:hover .institution-section__desc{
+  opacity: 1;
+}
+.institution-card__box {
+  position: relative;
+  height: 460px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 32px 40px;
+  width: 384px;
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: rgb(0 0 0 / 5%) 0px 4px 40px;
+  transition: all 0.2s linear 0s;
+  margin-bottom: 24px;
+}
+
+.institution-card__img {
+  width: 96px;
+  height: 96px;
+  margin-bottom: 16px;
+  will-change: opacity;
+  transition: all 0.25s linear 0s;
+}
+
+.institution-card__content-bg {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  will-change: transform;
+  transition: all 0.2s linear 0s;
+}
+
+.institution-card__title {
+  margin: 0px auto 8px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgb(18, 18, 20);
+  text-align: center;
+}
+
+.institution-card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: left;
+  color: rgb(18, 18, 20);
+}
+
+.institution-card__content-item {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  transition: all 0.3s linear 0s;
+}
+
+.jfsJKa .institution-card__content-item-dot {
+  display: inline-block;
+  margin-top: 11px;
+  min-width: 6px;
+  max-width: 6px;
+  height: 6px;
+  background: rgb(247, 166, 0);
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.institution-card__content-item-text {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 26px;
+  color: rgb(18, 18, 20);
+}
+
+.institution-section__desc {
+  width: 100%;
+  font-size: 14px;
+  line-height: 26px;
+  color: rgb(129, 133, 140);
+  opacity: 0;
+  margin-top: 16px;
+  will-change: opacity;
+  transition: all 0.1s linear 0s;
+  text-align: left;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+
+.institution-card__btn-bg {
+  width: 100%;
+  padding: 0px 24px 24px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgb(255, 255, 255);
+  z-index: 10;
+  display: flex;
+  align-items: flex-end;
+}
+
+.institution__contained-btn.institution-card__explore-btn {
+  min-width: auto;
+  flex: 1 1 0%;
+  height: 48px;
+  color: rgb(18, 18, 20);
+}
+
+.institution__contained-btn {
+  display: inline-flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background: rgb(247, 166, 0);
+  border-radius: 5px;
+  height: 48px;
+  padding: 0px 16px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: rgb(16, 16, 20);
+  cursor: pointer;
+  border: none;
+  user-select: none;
+  transition: all 0.3s linear 0s;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.institution__outline-btn.institution-card__view-btn {
+  flex: 1 1 0%;
+  margin-left: 24px;
+}
+
+.institution__outline-btn {
+  display: inline-flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: transparent;
+  color: rgb(247, 166, 0);
+  border-radius: 5px;
+  height: 48px;
+  padding: 0px 16px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  border: 1px solid rgb(247, 166, 0);
+  cursor: pointer;
+}
+
+
+@media (max-width : 768px) {
+  .main__container .trade__features {
+    display: block;
+  }
+
+  .main__container .trade__features .trade__advantages-divide-line {
+    display: none;
+  }
+
+  .main__container .trade__advantages{
+    display: block;
+  }
+  .main__container .trade__advantages .trade_card__box{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .institution-card__box{
+    width: 100%;
+  }
+}

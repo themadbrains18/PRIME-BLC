@@ -1,0 +1,230 @@
+.history_records_trade {
+    position: relative;
+    width: 100%;
+    min-height: calc(100vh - 96px);
+    padding: 40px 120px;
+    background: #f2f2f2;
+}
+.record-history .history_records_trade {
+    min-height: 100vh;
+}
+.history-tab-wrapper {
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, .4);
+    gap: 15px;
+    min-width: 850px;
+    width: 100%;
+}
+
+.tab-btn {
+    margin: 0 32px 0 0;
+    position: relative;
+    align-items: center;
+    padding: 12px 0;
+    font-size: 14px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: rgba(0, 0, 0, .4);
+    line-height: 18px;
+}
+
+.tab-btn-active {
+    border-bottom: 3px solid #eb9f12;
+}
+
+.trade-history-filter {
+    margin-top: 22px;
+}
+
+.trade-filter-form {
+    color: rgba(0, 0, 0, .2);
+    font-size: 14px;
+    display: inline-flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.filter_dropdown_wrapper {
+    position: relative;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    transition: all .3s cubic-bezier(.645, .045, .355, 1);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    cursor: pointer;
+    max-height: 32px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    min-width: 170px;
+    width: 100%;
+}
+
+.filter_dropdown_wrapper ul {
+    padding: 0;
+}
+
+.filter_list_dropdown .list_item_name {
+    color: #121214 !important;
+}
+
+.filter_list_dropdown {
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 100%;
+    z-index: 3;
+}
+.history-date-range{
+    display: flex;
+    display: flex;
+    padding: 5px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    gap:5px;
+}
+.operation-default-btn{
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    background-color: transparent;
+    border-radius: 4px;
+    border:1px solid #d9d9d9;
+    padding: 8px;
+}
+.history-list-info {
+    overflow-x: auto;
+    margin-top: 20px;
+    background: #fff;
+    min-width: 850px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+.history-list-header {
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    height: 40px;
+    width: 100%;
+    padding-left: 8px;
+    align-items: center;
+    color: rgba(0, 0, 0, .4);
+    font-size: 12px;
+    padding: 10px;
+}
+.withdraw .history-list-header {
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    height: 40px;
+    width: 100%;
+    padding-left: 8px;
+    align-items: center;
+    color: rgba(0, 0, 0, .4);
+    font-size: 12px;
+    padding: 10px;
+    gap: 20px;
+}
+.history-list-info.transfer td {
+    padding: 20px 4px;
+}
+.history-list-info.transfer th span,
+.history-list-info.transfer td span
+{
+    font-size: 12px;
+    color:rgba(0, 0, 0, .4);
+    font-weight: 400;
+}
+.history-list-info.transfer td span{
+    color: #000;
+}
+.history-list-info.transfer thead th {
+    padding: 20px 4px;
+}
+.history-list-info.transfer tr:not(:last-child){
+    border-bottom: 1px solid #ededed;
+}
+.history-list-info-row {
+    margin-top: 20px;
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    min-height: 60px;
+    height: 100%;
+    width: 100%;
+    padding-left: 8px;
+    font-size: 12px;
+    align-items: center;
+    border-bottom: 1px solid #ededed;
+    gap: 20px;
+}
+.withdraw .history-list-info-row {
+    margin-top: 20px;
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    min-height: 60px;
+    height: 100%;
+    width: 100%;
+    padding-left: 8px;
+    font-size: 12px;
+    align-items: center;
+    border-bottom: 1px solid #ededed;
+}
+.history-btn{
+    margin-top: 22px;
+    margin-left: 20px;
+    padding: 0 0 20px;
+}
+
+.ant-btn{
+    color: rgba(0,0,0,.25);
+    background: #f5f5f5;
+    border-color: #d9d9d9;
+    margin-right: 12px;
+    border-radius: 4px;
+}
+.history_date:focus{
+    outline: none;
+}
+.history_date {
+    background: transparent;
+    border: none;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: url(../assets/images/calender.svg) no-repeat;
+    width: 20px;
+    height: 20px;
+}
+.trade-filter-form > div:hover{
+    border-color: #eb9f12;
+}
+.operation-default-btn:hover{
+    border-color: #eb9f12;
+    color:#eb9f12
+}
+@media(max-width:768px){
+    .record-history .history_records_trade {
+        min-height: unset;
+    }
+}
+@media (max-width:980px) {
+    .history_records_trade {
+        padding: 40px 20px;   
+        overflow-x: auto;
+    }
+    .history-list-info {
+        overflow-x: auto;
+      
+    }
+    
+}

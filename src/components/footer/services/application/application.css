@@ -1,0 +1,191 @@
+.service-application .container * {
+  font-family: 'IBM Plex Sans';
+}
+
+.service-application {
+  padding: 32px 0 64px;
+  background: #fff;
+}
+
+.service-application .list-page-upper-section {
+  line-height: 1.5;
+}
+
+.service-application .list-page-upper-section .list-links {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.service-application .list-page-upper-section .list-links .breadcrumb-link {
+  color: #8e949a;
+  font-weight: 700;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.service-application .list-page-upper-section .list-links .breadcrumb-link.active {
+  color: #000;
+  cursor: auto;
+}
+
+.service-application .list-page-upper-section .list-links .breadcrumb-arrow {
+  margin-right: 16px;
+}
+
+.service-application .list-page-upper-section .list-links .breadcrumb-arrow .right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.service-application .list-page-upper-section .list-links .breadcrumb-arrow .arrow {
+  border: solid #dbdbdb;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.service-application .service-detail {
+  display: flex;
+}
+
+.service-application .service-detail .post-detail {
+  margin-right: 35px;
+  max-width: 800px;
+  line-height: 1.5;
+}
+
+.service-detail .post-detail .post-detail-title {
+  font-weight: 500;
+  font-size: 30px;
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.post-page-topics-container,
+.post-page-topics-container-left {
+  display: flex;
+  align-items: center;
+}
+
+.post-page-topics-container {
+  justify-content: space-between;
+}
+
+.service-detail .post-detail .post-detail-content {
+  margin-top: 30px;
+  font-size: 1rem;
+}
+
+.service-detail .post-detail .post-detail-content p {
+  margin-bottom: 0;
+  padding-bottom: 1rem;
+  word-break: break-word;
+}
+
+.service-detail .post-detail .post-detail-content h3,
+.service-detail .post-detail .post-detail-content h4,
+.service-detail .post-detail .post-detail-content h5,
+.service-detail .post-detail .post-detail-content h6 {
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.service-detail .post-detail .post-detail-content ol li,
+.service-detail .post-detail .post-detail-content ul li {
+  margin-bottom: 1em;
+}
+
+.fix-ctn {
+  margin-left: 25px;
+}
+
+.signup-box {
+  border: 1px solid #d5dae0;
+  border-radius: 8px;
+  padding: 24px;
+  background-color: #f5f7fa;
+}
+
+.signup-box h3 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.signup-box .signup-button {
+  margin-top: 20px;
+  background-color: #ffb11a;
+  height: 46px;
+  border-radius: 4px;
+}
+
+.signup-box .signup-button a {
+  display: block;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  color: #000;
+}
+
+.recommend-wrapper {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.recommend-wrapper .recommend-title {
+  line-height: 26px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.recommend-wrapper .recommend-item {
+  line-height: 26px;
+  margin-bottom: 20px;
+  display: block;
+  cursor: pointer;
+}
+
+.recommend-wrapper .recommend-item-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #121214;
+  margin-bottom: 4px;
+}
+
+.recommend-wrapper .recommend-item-date {
+  font-size: 14px;
+  color: #71757a;
+}
+
+@media (max-width : 720px) {
+  .service-application .service-detail {
+    display: block;
+  }
+
+  .service-application {
+    padding: 62px 0px 10px;
+  }
+  .service-application .list-page-upper-section .list-links .breadcrumb-link{
+    margin-right: 12px;
+  }
+  .fix-ctn{
+    margin: 0 !important;
+  }
+  .upload-btn-wrap {
+      flex-direction: column;
+      
+  }
+  .upload-tips{
+    margin: 0;
+  }
+  .start-trading{
+    padding: 0 30px;
+  }
+  .start-trading-inner{
+    flex-direction: column;
+    text-align: center;
+  }
+}

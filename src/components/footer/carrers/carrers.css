@@ -1,0 +1,490 @@
+.hero_wrapper{
+    background-color: #202020;
+    padding: 50px 0;
+}
+.hero_wrapper .hero_contaner{
+    max-width: 1224px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.carrers-header {
+    margin-top: 16px;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+.carrers-image {
+    margin-top: 16px;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+
+}
+
+.carrers-header-title {
+    text-align: left;
+    line-height: 66px;
+    font-size: 48px;
+    font-weight: 500;
+    color: rgba(255, 255, 255);
+    align-self: stretch;
+    margin-right: 8px;
+}
+
+.carrers-header-sub-title {
+    text-align: left;
+    width: 100%;
+    line-height: 31px;
+    font-size: 24px;
+    font-weight: 300;
+    color: rgba(255, 255, 255);
+}
+.cta_wrapper {
+    width: 100%;
+}
+.carrers-header-button {
+    margin-top: 32px;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+    background-color: #d8ad63;
+    padding: 12px 24px;
+    align-self: baseline;
+}
+
+.carrers-header-button .button {
+    color: black;
+}
+
+.our-mission {
+    background-color: rgba(245, 247, 250, 1)
+}
+
+.our-mission-content {
+    width: 100%;
+    flex-grow: 1;
+    box-sizing: border-box;
+    max-width: 1350px;
+    display: flex;
+    flex-direction: column;
+    padding: 42px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 32px;
+}
+
+.mission-content-title {
+    line-height: 48px;
+    text-align: left;
+    color: black;
+    font-family: 'IBM Plex Sans';
+    font-size: 40px;
+    font-weight: 500;
+    margin-right: auto;
+}
+
+.our-mission-cards {
+    width: 100%;
+    margin-top: 40px;
+    height: auto;
+    display: flex;
+    gap: 32px;
+}
+
+.listen-card {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 32px;
+    border-radius: 12px;
+    max-width: 378px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 1px 20px rgb(21 25 42 / 8%);
+}
+
+.listen-card-img {
+    box-sizing: border-box;
+    width: 124px;
+    overflow: hidden;
+    margin-left: auto;
+    top: -63px;
+    right: 0px;
+    margin-bottom: auto;
+    position: absolute
+}
+
+.listen-card-content-title {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: left;
+    font-weight: 600;
+    margin-right: auto;
+    font-family: 'IBM Plex Sans';
+}
+
+.listen-card-content-decription {
+    margin-top: 24px;
+    line-height: 26px;
+    height: auto;
+    text-align: left;
+    color: rgba(110, 116, 123, 1);
+    font-size: 18px;
+    width: auto;
+    align-self: center;
+    margin-right: auto;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans';
+}
+
+.our-benefits {
+    width: 100%;
+    flex-grow: 1;
+    box-sizing: border-box;
+    max-width: 1350px;
+    display: flex;
+    flex-direction: column;
+    padding: 42px 40px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.benefits-content-title {
+    line-height: 48px;
+    text-align: left;
+    color: black;
+    font-size: 40px;
+    font-weight: 500;
+    margin-right: auto;
+    font-family: 'IBM Plex Sans';
+}
+
+.benefit-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 0px;
+    width: 100%;
+    margin-top: 50px;
+    gap: 23px;
+
+}
+
+.benefit-card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.benefit-card-content-title {
+    border-left: 8px solid #d8ad63;
+    padding-left: 8px;
+    line-height: 32px;
+    text-align: left;
+    color: rgba(21, 25, 42, 1);
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: auto;
+    font-family: 'IBM Plex Sans';
+}
+
+.benefit-card-content-description {
+    padding-left: 16px;
+    text-align: left;
+    color: rgba(110, 116, 123, 1);
+    font-size: 16px;
+    width: auto;
+    margin-top: 8px;
+    align-self: center;
+    margin-right: auto;
+    font-weight: 500;
+    font-family: 'IBM Plex Sans';
+}
+
+
+.our-rewards-content {
+    width: 100%;
+    flex-grow: 1;
+    box-sizing: border-box;
+    max-width: 1350px;
+    display: flex;
+    flex-direction: column;
+    padding: 42px 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rewards-content-title {
+    line-height: 48px;
+    height: auto;
+    text-align: left;
+    color: black;
+    font-family: 'IBM Plex Sans';
+    font-size: 40px;
+    font-weight: 500;
+    margin-right: auto;
+}
+
+.rewards-content-title img {
+    width: 50px;
+}
+
+.our-rewards-cards {
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 48px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.rewards-card-content {
+    max-width: 285px;
+    width: 100%;
+    text-align: center;
+}
+
+.rewards-card-content-title {
+    line-height: 32px;
+    text-align: center;
+    color: #d8ad63;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.rewards-card-content-description {
+    margin-top: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: rgba(110, 116, 123, 1);
+    font-size: 18px;
+    align-self: center;
+    margin-right: auto;
+    font-weight: 400
+}
+
+.our-department {
+    background-color: rgba(245, 247, 250, 1)
+}
+
+.our-department-content {
+    width: 100%;
+    flex-grow: 1;
+    box-sizing: border-box;
+    max-width: 1350px;
+    padding: 42px 40px;
+
+}
+
+.department-content-title {
+    line-height: 48px;
+    text-align: left;
+    color: black;
+    font-family: 'IBM Plex Sans';
+    font-size: 40px;
+    font-weight: 500;
+    margin-right: auto;
+}
+
+.our-department-cards {
+    width: 100%;
+    margin-top: 40px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+}
+
+.department-card {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 32px;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0px 1px 20px rgb(21 25 42 / 8%);
+}
+
+.department-card-content-title {
+    font-size: 24px;
+    line-height: 40px;
+    text-align: left;
+    font-weight: 600;
+    font-family: 'IBM Plex Sans';
+}
+
+.department-card-content-decription {
+    margin-top: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(110, 116, 123, 1);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans';
+}
+
+.department-card-img {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.dep-image {
+    width: 64px;
+    min-height: 20px;
+    min-width: 20px;
+    overflow: hidden;
+    height: 64px;
+}
+
+.department_arrow-img {
+    align-self: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50px;
+    padding: 0 0px 0 26px;
+    z-index: 2;
+}
+
+.department_arrow-img img {
+    background-color: #fffbf0;
+    border-radius: 50%;
+    padding: 16px;
+    transition: 0.3s;
+    position: relative;
+    z-index: 99;
+    margin-right: -3px;
+}
+
+.department_arrow_title {
+    font-size: 20px;
+    margin: 8px;
+    margin-right: 10px;
+    transform: translate(115px);
+    color: #d8ad63;
+    visibility: hidden;
+    transition: 0.3s;
+    z-index: -1;
+    overflow: hidden;
+    align-self: center;
+
+}
+
+.department-card:hover .department_arrow-img {
+    background-color: #fffbf0;
+    transition: 0.3s;
+
+}
+
+.department-card:hover .department_arrow-img img {
+
+    background-color: #fffbf0;
+    transition: 0.3s;
+
+
+}
+
+.department-card:hover .department_arrow_title {
+    transform: translate(0);
+    position: relative;
+    top: 50%;
+    transition: 0.3s;
+    visibility: visible;
+    align-self: center;
+    z-index: 1;
+
+}
+
+.joinus {
+    padding: 42px 60px;
+    width: 100%;
+    background: linear-gradient(109.34deg, #FFFAEF 20.46%, #FFE9B0 100%);
+    min-height: 335px;
+    overflow: hidden;
+}
+
+.joinus-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.joinus-content-title {
+    line-height: 40px;
+    text-align: center;
+    color: rgba(21, 25, 42, 1);
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.joinus-content-button {
+    background-color: #d8ad63;
+    align-self: center;
+    padding: 12px 24px;
+    margin-top: 40px;
+}
+
+.joinus-content-button .button {
+    color: black;
+}
+
+@media (max-width:1200px) {
+    .our-mission-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 60px;
+    }
+
+    .our-department-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+@media (max-width:991px) {
+
+    .hero_wrapper .hero_contaner > div{
+        width: 50%;
+    }
+}
+
+@media (max-width:768px) {
+    .benefit-card {
+        grid-template-columns: 1fr;
+    }
+
+    .our-department-cards {
+        grid-template-columns: 1fr;
+    }
+    .hero_wrapper .hero_contaner{
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+    .hero_wrapper .hero_contaner > div
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .carrers-header-title {
+        text-align: center;
+        line-height: 48px;
+        font-size: 32px;
+    }
+    .carrers-header-sub-title {
+        text-align: center;
+        line-height: 24px;
+        font-size: 16px;
+    }
+}

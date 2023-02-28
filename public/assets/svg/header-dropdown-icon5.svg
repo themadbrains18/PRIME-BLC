@@ -1,0 +1,8 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect opacity="0.08" x="2" y="2" width="36" height="36" rx="8" fill="#737E8D"/>
+<path opacity="0.9" d="M23 27L26 30H20L23 27Z" fill="#18BB97"/>
+<circle cx="12.5" cy="21.5" r="4.5" fill="#737E8D"/>
+<path opacity="0.9" d="M32 16.5C32 20.0899 29.0899 23 25.5 23C21.9101 23 19 20.0899 19 16.5C19 12.9101 21.9101 10 25.5 10C29.0899 10 32 12.9101 32 16.5Z" fill="#2DBD96"/>
+<rect x="25.5" y="14.3787" width="3" height="3" transform="rotate(45 25.5 14.3787)" fill="white"/>
+<rect opacity="0.9" x="9" y="27.9529" width="23" height="1.5" transform="rotate(-15 9 27.9529)" fill="#18BB97"/>
+</svg>

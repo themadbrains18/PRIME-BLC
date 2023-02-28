@@ -1,0 +1,348 @@
+.feedback-image {
+    background: url("./images/feedbackbanner.png");
+    margin-top: 16px;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    background-position: top;
+    background-size: cover;
+
+}
+
+.banner-inner {
+    position: relative;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-title {
+    color: #15192a;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.header-sub-title {
+    color: #d8ad63;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.feedback-main {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+.intro {
+    display: flex;
+    padding-top: 85px;
+    gap: 15px;
+}
+
+.icon-light-outline {
+    margin-left: -10px;
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    margin-right: 24px;
+    background: url(./images/light-outline.svg) 0 0 no-repeat;
+    background-size: 48px 48px;
+}
+
+.feedback-box-wrap {
+    margin-top: 48px;
+ 
+}
+
+.recommend-score-title {
+    color: rgba(0, 0, 0);
+    font-family: 'IBM Plex Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.score-wrap {
+    margin-top: 24px;
+    display: flex;
+}
+
+.score-inner {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.recommend-score-likely {
+    display: none;
+}
+
+.score-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.score {
+    width: 60px;
+    margin-right: 8px;
+    margin-bottom: 5px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+    color: rgba(0, 0, 0);
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.score:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, .9), rgba(255, 255, 255, .9)), #f7a600;
+    border-radius: 4px;
+    border-color: #d8ad63;
+}
+
+.recommend-score-likely-text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.recommend-share {
+    margin-top: 36px;
+}
+
+.input-wrap {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    padding: 16px 16px 13px;
+    height: 148px;
+    border: 1px solid #c7cdd0;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.input-wrap textarea {
+    flex: 1;
+    resize: none;
+    width: 100%;
+    padding: 0;
+    color: #15192a;
+    font-family: 'IBM Plex Sans';
+    font-size: 16px;
+    line-height: 24px;
+    outline: 0;
+    border: none;
+
+    overflow: auto;
+}
+
+.word-count {
+    color: #8e949a;
+    font-family: 'IBM Plex Sans';
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+}
+
+.upload-btn-wrap {
+    display: flex;
+    margin-top: 24px;
+}
+
+.upload-btn {
+    position: relative;
+    flex-shrink: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 108px;
+    height: 48px;
+    padding: 0 16px;
+    font-family: 'IBM Plex Sans';
+    font-size: 16px;
+    text-align: center;
+    color: #15192a;
+    border: 1px solid #c7cdd0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.icon-upload-outline {
+    flex-shrink: 0;
+    width: 14px;
+    height: 14px;
+    margin-right: 9px;
+    background: url(./images/upload-outline.svg) 0 0 no-repeat;
+    background-size: 14px 14px;
+}
+
+.upload-tips {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 16px;
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8e949a;
+}
+
+.submit-btn {
+    margin-top: 36px;
+    text-align: right;
+
+}
+
+button.submit {
+    cursor: default;
+    display: inline-block;
+    min-width: 126px;
+    height: 48px;
+    padding: 0 16px;
+    font-family: 'IBM Plex Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 48px;
+    text-align: center;
+    color: #15192a;
+    border: none;
+    border-radius: 4px;
+    vertical-align: top;
+    outline: 0;
+    cursor: pointer;
+    background-color: #d8ad63;
+}
+
+button.submit:hover {
+    opacity: .6;
+}
+
+.start-trading {
+    margin-top: 64px;
+    padding: 0 120px;
+    background-color: #15192a;
+}
+
+.start-trading-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 0;
+
+}
+
+.start-trading .content {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #fff;
+}
+
+.start-btn {
+    min-width: 139px;
+    height: 52px;
+    padding: 0 16px;
+    font-family: 'IBM Plex Sans';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 52px;
+    text-align: center;
+    color: #15192a;
+    background: #d8ad63;
+    box-shadow: 0px 1px 15px rgb(24 32 82 / 20%);
+    border: none;
+    border-radius: 4px;
+    outline: 0;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .feedback-image {
+        background: url("./images/feedbackbanner2.png") no-repeat center/cover;
+        justify-content: initial;
+    }
+
+    .header-title-box {
+
+        max-width: 768px;
+
+    }
+    .feedback-main{
+        padding: 25px;
+    }
+
+    .intro {
+        display: flex;
+        padding-top: 0;
+        flex-wrap: wrap;
+    }
+
+    .start-trading .content {
+        font-weight: 500;
+        font-size: 20px;
+
+    }
+
+
+}
+
+
+
+@media (max-width: 768px) {
+    .intro,
+    .recommend-score-likely
+    {
+        justify-content: center;
+    }
+    .intro span{
+        text-align: center;
+    }
+    .recommend-score-title{
+        text-align: center;
+    }
+    
+    .feedback-image {
+        background: url("./images/feedbackbanner3.png")no-repeat center/cover;
+        gap: 0;
+    }
+    .feedback-main{
+        padding: 50px 20px;
+    }
+    .header-title {
+        font-size: 20px;
+        text-align: center;
+        /* line-height: 10px; */
+    }
+
+    .header-sub-title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .recommend-score-likely-text {
+        display: none;
+        
+    }
+    .recommend-score-likely {
+        display: flex;
+    }
+    .start-trading .content {
+        font-weight: 300;
+        font-size: 20px;
+
+    }
+}

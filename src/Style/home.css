@@ -1,0 +1,786 @@
+a{
+  text-decoration: none !important;
+}
+.update__trending__coin {
+  display: none;
+}
+
+.themeColor{
+  color: #d8ad5e;
+}
+
+/*================= Trading Coin Panel Card Css ==================*/
+.carousel-heading {
+  min-height: 56px;
+  line-height: 56px;
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--bybit-font-color-primary);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.tradingCoinSection {
+  background-color: #f7f8fa;
+}
+
+.splide__slide {
+  margin-right: 20px !important;
+  /* width: 32% !important; */
+}
+
+.tradingCoinSection .splide__arrow--prev,
+.tradingCoinSection .splide__arrow--next {
+  display: none !important;
+}
+
+.List_marketDataList {
+  padding: 0 !important;
+}
+
+.Card_marketCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  box-shadow: 0 2px 24px rgb(24 32 82 / 5%);
+  border-radius: 16px;
+}
+
+.Card_marketCard .Card_title {
+  width: 100%;
+  height: 28px;
+  margin-bottom: 16px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  line-height: 28px;
+  color: #121214;
+  font-weight: 600;
+}
+
+.Card_marketCard .Card_title .Card_text {
+  display: inline-flex;
+  align-items: center;
+}
+
+.Tag_tag {
+  background: linear-gradient(90deg, #eb9f12, #ff5f59);
+  margin-left: 8px;
+}
+
+.Tag_tag {
+  display: inline-block;
+  height: 24px;
+  overflow: hidden;
+  border-radius: 4px;
+  padding: 0 6px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.Card_marketCard .Card_content {
+  width: 100%;
+  padding: 0 24px;
+  border-top: 1px solid #f8fafc;
+}
+
+.List_marketDataList .List_item {
+  display: flex;
+  height: 64px;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.List_marketDataList .List_item .List_left {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+[dir=ltr] .List_marketDataList .List_item .List_left .List_info {
+  margin-left: 8px;
+  text-align: left;
+}
+
+.List_marketDataList .List_item .List_left .List_info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.List_marketDataList .List_item .List_left .List_info .List_leftTop {
+  margin-bottom: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #81858c;
+}
+
+[dir=ltr] .List_marketDataList .List_item .List_left .List_info .List_leftBottom {
+  padding-right: 1em;
+}
+
+.List_marketDataList .List_item .List_left .List_info .List_leftBottom {
+  font-size: 16px;
+  font-weight: 600;
+  color: #121214;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+[dir=ltr] .List_marketDataList .List_item .List_right {
+  text-align: right;
+}
+
+[dir=ltr] .List_marketDataList .List_item .List_right .List_rightTop {
+  text-align: right;
+}
+
+.List_marketDataList .List_item .List_right .List_rightTop {
+  margin-bottom: 4px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+[dir=ltr] .List_marketDataList .List_item .List_right .List_rightBottom {
+  text-align: right;
+}
+
+.List_marketDataList .List_item .List_right .List_rightBottom {
+  font-size: 14px;
+  font-weight: 400;
+  color: #121214;
+}
+
+.List_marketDataList .List_item .List_right .List_rightBottom .List_text {
+  margin-left: 4px;
+}
+
+.first-span {
+  box-sizing: border-box;
+  display: inline-block;
+  overflow: hidden;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  max-width: 100%;
+}
+
+.secod-span {
+  box-sizing: border-box;
+  display: block;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+}
+
+.first-image {
+  display: block;
+  max-width: 100%;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.second-image {
+  position: absolute;
+  inset: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  border: none;
+  margin: auto;
+  display: block;
+  width: 0px;
+  height: 0px;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+
+@media (max-width: 719px) {
+  .carousel-heading {
+    min-height: 32px;
+    line-height: 32px;
+    font-size: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+}
+
+/*================= Trading Coin Panel Card Css End ==================*/
+
+/*================= Hero Section Css ==================*/
+.title .text-success{
+  color: #d8ad5e; 
+}
+.hero__sec {
+  display: none;
+}
+
+.Spotlight_spotlight {
+  display: flex;
+  width: 100%;
+  min-height: 550px;
+}
+
+.banner {
+  background-color: #202020;
+  padding: 50px 0;
+}
+
+.Custom_customSpotlight {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.banner > .Spotlight_spotlight{
+  max-width: 1224px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.Custom_customSpotlight .Custom_content .Custom_sloganModule .Custom_sloganTitle {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  color: #fff;
+}
+.spotlight_img img {
+  max-width: 450px;
+  width: 100%;
+} 
+.Custom_customSpotlight .Custom_content .Custom_sloganModule .Custom_sloganDescription {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #d8ad5e;
+  margin-top: 8px;
+}
+
+.Custom_customSpotlight .Custom_content .Custom_buttonModule {
+  margin-top: 24px;
+}
+
+.LinkButton_spotlightLinkButton {
+  height: 64px;
+  padding: 0 50px;
+  line-height: 64px;
+  font-weight: 600;
+  font-size: 28px;
+  border-radius: 8px;
+  display: inline-block;
+  user-select: none;
+  background: #d8ad5e;
+  color: #242629 !important;
+}
+
+.LinkButton_spotlightLinkButton:hover {
+  background: #eb9f12;
+}
+
+[dir=ltr] .LinkButton_spotlightLinkButton .LinkButton_icon {
+  margin-left: 8px;
+}
+
+.Custom_customSpotlight .Custom_content .Custom_registerDownloadGroup {
+  margin-top: 56px;
+  display: flex;
+  align-items: center;
+}
+
+[dir=ltr] .Custom_customSpotlight .Custom_content .Custom_registerDownloadGroup .Custom_registerModule {
+  margin-right: 24px;
+}
+
+.Register_spotlightRegister {
+  position: relative;
+  display: flex;
+}
+
+.Register_spotlightRegister .Register_left {
+  width: 367px;
+  height: 56px;
+}
+
+[dir=ltr] .Register_spotlightRegister .Register_left input {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-right: none;
+}
+
+.Register_spotlightRegister .Register_left input {
+  width: 100%;
+  height: 100%;
+  line-height: 100%;
+  padding: 20px 24px;
+  box-sizing: border-box;
+  background: #242629;
+  border: 1px solid #f7a600;
+  color: #fff;
+  outline: none;
+}
+
+[dir=ltr] .Register_spotlightRegister .Register_right {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.Register_spotlightRegister .Register_right {
+  padding: 0 24px;
+  height: 56px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 56px;
+  color: #121214;
+  text-align: center;
+  background: #d8ad5e;
+  white-space: nowrap;
+  user-select: none;
+  cursor: pointer;
+}
+
+.Register_spotlightRegister .Register_right:hover{
+  background: #eb9f12;
+}
+
+.Download_downloadList {
+  height: 48px;
+  position: relative;
+  display: flex;
+}
+
+[dir=ltr] .Download_downloadList .Download_downloadItem {
+  margin-right: 24px;
+}
+
+.Download_downloadList .Download_downloadItem {
+  width: 48px;
+  height: 48px;
+}
+
+.Download_qrCodeImage .first-span {
+  box-sizing: border-box;
+  display: inline-block;
+  overflow: hidden;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  max-width: 100%
+}
+
+.Download_qrCodeImage .second-span {
+  box-sizing: border-box;
+  display: block;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  max-width: 100%
+}
+
+.Download_qrCodeImage .image1 {
+  display: block;
+  max-width: 100%;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0;
+  margin: 0;
+  padding: 0
+}
+
+.Download_qrCodeImage .image2 {
+  position: absolute;
+  inset: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  border: none;
+  margin: auto;
+  display: block;
+  width: 0px;
+  height: 0px;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+
+
+
+@media (max-width: 719px) {
+  .Spotlight_spotlight {
+    height: auto;
+    min-height: auto;
+    /* margin-bottom: 48px; */
+    background-size: 100%;
+    margin-top: 25px;
+  }
+
+  .Custom_customSpotlight {
+    height: 540px;
+    background-image: var(--mobile-bg);
+    background-size: cover;
+  }
+
+  .Wrapper_wrapper {
+    width: 327px;
+  }
+
+  .Custom_customSpotlight .Custom_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 24px;
+  }
+
+  .Custom_customSpotlight .Custom_content .Custom_sloganModule {
+    margin-top: 0;
+  }
+
+  .Custom_customSpotlight .Custom_content .Custom_sloganModule .Custom_sloganTitle {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  .Custom_customSpotlight .Custom_content .Custom_sloganModule .Custom_sloganDescription {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+
+  .LinkButton_spotlightLinkButton {
+    display: inline-block;
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    padding: 0;
+    background: #f7a600;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #242629;
+  }
+
+  .Custom_customSpotlight .Custom_content .Custom_registerDownloadGroup {
+    display: none;
+  }
+
+  .Custom_customSpotlight .Custom_content .Custom_registerDownloadGroup .Custom_downloadModule,
+  .Custom_customSpotlight .Custom_content .Custom_registerDownloadGroup .Custom_registerModule {
+    display: none;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 1264px) {
+ 
+
+  .Spotlight_spotlight {
+    min-height: 352px;
+  }
+
+  .Custom_customSpotlight .Custom_content .Custom_sloganModule {
+    margin-top: 26px;
+  }
+
+  .Custom_customSpotlight .Custom_content .Custom_sloganModule .Custom_sloganTitle {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .Custom_customSpotlight .Custom_content .Custom_sloganModule .Custom_sloganDescription {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+  }
+
+  .LinkButton_spotlightLinkButton {
+    height: 60px;
+    line-height: 60px;
+    padding: 0 50px;
+    font-size: 20px;
+  }
+
+  .LinkButton_spotlightLinkButton__6y_N6 .LinkButton_icon__Qz4cu {
+    width: 16px;
+    height: 16px;
+  }
+
+  .Custom_customSpotlight .Custom_content .Custom_registerDownloadGroup {
+    margin-top: 42px;
+    margin-bottom: 24px;
+  }
+
+  .Custom_customSpotlight .Custom_content .Custom_registerDownloadGroup .Custom_registerModule {
+    max-width: 460px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1265px) and (max-width: 1799px) {
+  .Spotlight_spotlight {
+    min-height: 472px;
+  }
+  
+.LinkButton_spotlightLinkButton {
+  font-size: 24px;
+}
+}
+
+
+
+
+/*================= Hero Section Css End ==================*/
+
+/*================= Explore Section Css End ==================*/
+.explore_sec{
+  padding: 70px 0;
+}
+.explore_sec .container{
+  max-width: 1480px;
+  padding: 0 20px;
+}
+.sec_main_heading{
+  line-height: 56px;
+  font-size: 48px;
+  font-weight: 700;
+  color: #121214;
+  margin-bottom: 50px;
+}
+.grid_wraper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+}
+.grid_inner{
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+.grid_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 40px 50px 0;
+}
+.grid_item{
+  padding: 48px 0 0 48px;
+  width: 100%;
+  height: 360px;
+  background-color: #fff;
+  border-radius: 16px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 1px 15px rgb(24 32 82 / 20%);
+  transition: transform .3s ease-out;
+  position: relative;
+}
+.grid_item:hover{
+  box-shadow: 0px 2px 32px rgba(24,32,82,0.2);
+}
+.explore_sec_heading{
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 14px;
+  line-height: 50px;
+  color: #25262b;
+  width: calc(100% + 45px);
+  position: relative;
+  z-index: 9;
+}
+.explore_sec_info{
+  font-size: 18px;
+  line-height: 26px;  
+  color: #25262b;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.grid_img img {
+  max-width: 312px;
+  width: 100%;
+  height: 100%;
+  transition: transform .3s ease-out;
+}
+.grid_item:hover .grid_img img {
+  transform: scale(1.05);
+}
+.sec_cta{
+  padding: 0 49px 0 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #fcf3e0;
+  line-height: 48px;
+  font-weight: 600;
+  border-radius: 50px;
+  color: #eb9f12;
+  font-size: 18px;
+  transition: transform .3s ease-out;
+  width: fit-content;
+  position: relative;
+}
+.sec_cta span svg{
+  margin-top: -3px;
+}
+.item_anchor {
+  display: block;
+}
+span.cta_icon {
+  position: absolute;
+  right: 20px;
+  transition: .3s ease-out;
+}
+.grid_item:hover span.cta_icon {
+  right: 13px;
+}
+
+/* Responsive breakpoints */
+@media(max-width:1200px){
+  .grid_item {
+    padding: 28px 0 0 28px;
+  }
+  .grid_text{
+    padding: 0 20px 0px 0;
+  }
+  .sec_cta{
+    position: absolute;
+    bottom: 28px;
+  }
+  .explore_sec_heading {
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .explore_sec_info {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .grid_inner {
+      grid-template-columns: 1fr 1fr;
+  }
+  .grid_img img{
+    margin-top: 24px;
+    object-fit: contain;
+  }
+}
+@media(max-width:991px){
+  .grid_wraper{
+    grid-template-columns: 1fr;
+  }
+  .grid_img {
+      text-align: end;
+  }
+  .grid_img img{
+    margin-top: 0;
+  }
+  .explore_sec_heading {
+      font-size: 24px;
+      line-height: 32px;
+  }
+  .explore_sec_info {
+      font-size: 12px;
+      line-height: 18px;
+  }
+  .grid_item {
+      padding: 20px 0 0 20px;
+  }
+  .sec_cta{
+    font-size: 12px;
+    line-height: 31px;
+    padding: 0 38px 0 25px;
+    position: relative;
+    bottom: 17px;
+
+  }
+  .sec_cta span svg {
+      max-width: 15px;
+      right: 15px;
+  }
+  .grid_item:hover span.cta_icon {
+      right: 15px;
+  }
+  
+  
+}
+@media(max-width:767px){
+  .sec_main_heading{
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+@media(max-width:480px){
+  .grid_item{
+    height: auto;
+  }
+  .grid_text {
+      gap: 25px;
+  }
+}
+/*================= Explore Section Css End ==================*/
+@media(max-width:991px){
+  .Wrapper_wrapper,
+  .spotlight_img
+  {
+    width: 50%;
+
+  }
+}
+@media(max-width:767px){
+  .Custom_customSpotlight {
+      flex-direction: column-reverse;
+  }
+  .Custom_customSpotlight > div {
+    text-align: center;
+    width: 100%;
+  }
+  .Custom_customSpotlight .Custom_content .Custom_registerDownloadGroup{
+    justify-content: center;
+  }
+}
+@media(max-width:719px){
+  
+  .banner {
+      padding: 110px 0 30px;
+  }
+}

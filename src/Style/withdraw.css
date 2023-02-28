@@ -1,0 +1,98 @@
+.withdraw_coin_title {
+    padding: 20px 0 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.withdraw_dropdown_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #f5f7fa;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    max-width: 535px;
+    width: 100%;
+    position: relative;
+}
+
+.withdraw_button_img {
+    display: flex;
+    flex-basis: 24px;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    color: #fff;
+    border-radius: 24px;
+}
+
+.withdraw_button_text {
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.withdraw_button_icon i {
+    width: 12px;
+    right: 15px;
+    top: 20px;
+    position: absolute
+}
+.coin-wrapp {
+    position: relative;
+}
+
+.coin-wrapp .coin_list_dropdown {
+    position: absolute;
+    top: 100%;
+    background: #fff;
+    z-index: 1;
+    max-width: 539px;
+    width: 100%;
+    left: 0px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 12px #ccccccbf;
+}
+.select-field{
+    position: relative;
+}
+.select-field > span{
+    margin-bottom: 8px;
+    display: block;
+}
+.network-wrapp .coin_list_dropdown {
+    position: absolute;
+    top: 100%;
+    background: #fff;
+    z-index: 1;
+    max-width: 539px;
+    width: 100%;
+    left: 0px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 12px #ccccccbf;
+}
+
+.col-12.tip {
+    border: 2px solid #d8ad5e;
+    border-radius: 8px;
+}
+
+.withdraw-btn {
+    background-color: #d8ad5e;
+    float: right;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 6px;
+    color: #000;
+    margin-top: 3px;
+}
+
+@media (max-width: 767px) {
+    .table-responsive {
+        overflow-x: auto !important;
+    }
+}

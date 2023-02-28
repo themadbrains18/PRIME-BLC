@@ -1,0 +1,393 @@
+#swapcurrency .assetsBtn {
+  margin-top:15x;
+  display: flex;
+  background: #25262b;
+  align-items: center
+}
+#swapcurrency .btnDesign{
+  width: 1200px;
+  margin:  0 auto;
+  display: flex;
+  margin-bottom: -16px;
+  justify-content: space-between;
+  overflow-x: scroll;
+  white-space: nowrap;
+
+}
+#swapcurrency .btnUl{
+  display: flex;
+  margin-bottom: 1em;
+}
+#swapcurrency .btnTag{
+  height: 64px!important;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: .1px;
+  border-radius: 0!important;
+  color: hsla(0,0%,100%,.6);
+  padding: 0 12px;
+}
+#swapcurrency .MuiButtonlabel{
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+}
+#swapcurrency .MuiTouchRippleroot  {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  overflow: hidden;
+  position: absolute;
+  border-radius: inherit;
+  pointer-events: none;
+  }
+
+  .view-link-button {
+    width: 180px;
+    background-color: rgb(40 205 149);
+    margin: 20px 0;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#swapcurrency .view-link{
+  float: right;
+  width: 100%;
+}
+
+.swapContainer{
+  justify-content: space-between;
+  position: relative;
+  display: flex;
+  margin: auto;
+  width: 1200px;
+}
+.swapContainer .left{
+  float: left;
+}
+.swapContainer .right{
+  float: right;
+  margin-left: 30px;
+    margin-right: 30px;
+}
+
+.left .row , .right .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left .row h3, .right .row h3{
+  line-height: 1.28571429em;
+    margin: calc(2rem - 0.14286em) 0 1rem;
+    font-weight: 700;
+}
+
+.left .mt-5, .my-5, .right .mt-5, .my-5 {
+  margin-top: 3rem!important;
+  width: 100%;
+}
+
+.left .mt-5 span,.right .mt-5 span{
+  float: right;
+}
+
+.withdrawal-input .submit-button {
+  width: 50%;
+  background-color: rgb(40 205 149);
+  margin: 20px 0;
+  padding: 10px 30px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.w-75 {
+  width: 75%!important;
+}
+
+.new_depost .select-field .select-box-div {
+  background-color: #dcdcdc;
+  padding: 7px;
+  width: 100%!important;
+  border-radius: 3px;
+  margin-top: 3px;
+}
+
+.justify-content-between {
+  justify-content: space-between!important;
+}
+
+
+
+.new_depost .select-field p {
+  font-size: 16px;
+  align-items: center;
+}
+
+.new_depost .select-field .select-box-div {
+  background-color: #dcdcdc;
+  padding: 7px;
+  width: 100% !important;
+  border-radius: 3px;
+  margin-top: 3px;
+  align-items: center;
+}
+
+.new_depost .select-field .lable {
+  margin-left: 27%;
+}
+
+.new_depost .select-field .select-coin {
+  white-space: nowrap;
+  margin-top: 10px;
+  margin-left: 20%;
+}
+
+.new_depost .select-field .select-box-div .img {
+  margin-right: 10px;
+  border-radius: 13px;
+  overflow: hidden;
+}
+
+.new_depost .select-field .select-box-div h5 {
+  margin: 0px;
+  margin-top: 5px;
+  font-size: 17px;
+}
+
+.new_depost .select-field .select-box-div .spam-label {
+  margin: 0px;
+  margin-top: 6px;
+  margin-left: 6px;
+  font-size: 15px;
+  color: gray;
+}
+
+.new_depost .select-field .select-box-div i {
+  margin: 0px;
+  margin-top: 7px;
+  margin-left: 6px;
+  font-size: 15px;
+  color: gray;
+  margin-right: 0px;
+}
+
+.faq-Deposit-btn {
+  background-color: #dcdcdc;
+  float: right;
+  font-size: 18px;
+  padding: 9px;
+  border-radius: 3px;
+  color: #000;
+  margin-top: 3px;
+}
+
+.faq-Deposit-btn i {
+  font-size: 15px;
+}
+
+.faq-con ul li {
+  margin: 10px 0px;
+  margin-left: 4px;
+  color: gray;
+
+}
+
+.faq-con ul li p {
+  margin-top: -3px;
+}
+
+.faq-con ul li p a {
+  font-size: 15px;
+  margin-left: 4px;
+  color: gray;
+}
+
+.deposit-modal {
+  width: 100%;
+  border-radius: 3px;
+  /* overflow: hidden; */
+}
+/* overview sec css */
+.deposit-modal.tmb--modal {
+  overflow: unset;
+}
+/* overview sec css */
+.react-responsive-modal-closeButton {
+  position: absolute;
+  top: 14px;
+  right: 7% !important;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+  display: flex;
+}
+
+.deposit-modal .col-md-12 {
+  padding: 0 !important;
+}
+
+.deposit-modal input {
+  font-size: 18px;
+  background-color: #dcdcdc80;
+  border: none;
+  width: 100%;
+  padding: 10px;
+}
+
+.react-responsive-modal-container {
+  margin-right: 20px !important;
+}
+
+/* .deposit-modal input:focus {
+  border: transparent !important;
+  background-color: #dcdcdc80;
+  box-shadow: none;
+
+} */
+
+.deposit-modal .deposit-his .deposit-his-btn button {
+  background-color: #dcdcdc80;
+  margin-right: 5px;
+}
+
+.deposit-modal .deposit-his .deposit-his-btn button:focus {
+  box-shadow: none;
+}
+
+.deposit-modal .deposit-coin-list {
+  margin-top: 20px;
+  height: 255px !important;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.deposit-modal .deposit-coin-list ul li {
+  display: flex;
+  border-radius: 3px;
+  padding: 15px 8px;
+}
+
+.deposit-modal .deposit-coin-list ul li:hover {
+  background-color: #dcdcdc6a;
+}
+
+.deposit-modal .deposit-coin-list .img {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.deposit-modal .deposit-coin-list .text {
+  margin-left: 10px;
+
+}
+
+.deposit-modal .deposit-coin-list .symbole {
+  margin: 0px;
+  font-size: 17px;
+
+}
+
+.deposit-modal .deposit-coin-list .name {
+  color: #a19a9a;
+}
+
+
+.deposit-modal .deposit-account-list {
+  margin-top: 20px;
+  height: 255px !important;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.deposit-modal .deposit-account-list ul li {
+  display: flex;
+  border-radius: 3px;
+  padding: 15px 8px;
+}
+
+.deposit-modal .deposit-account-list ul li:hover {
+  background-color: #dcdcdc6a;
+}
+
+.deposit-modal .deposit-account-list .img {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.deposit-modal .deposit-account-list .text {
+  margin-left: 10px;
+
+}
+
+.deposit-modal .deposit-account-list .symbole {
+  margin: 0px;
+  font-size: 17px;
+
+}
+
+.deposit-modal .deposit-account-list .name {
+  color: #121010;
+  font-size: 17px;
+}
+
+.react-responsive-modal-modal {
+  max-width: auto;
+  overflow-y: auto !important;
+}
+
+.modal-design {
+  border-radius: 5px;
+  margin-top: 80px !important;
+  width: 100%;
+}
+
+.deposit-modal .info {
+  font-size: 14px;
+  line-height: 22px;
+  color: rgb(0, 20, 42);
+
+  padding: 15px 16px;
+  background: rgba(255, 181, 71, 0.12);
+  border: 1px solid rgba(255, 181, 71, 0.12);
+  border-radius: 4px;
+}
+
+.depost-fiat {
+  width: 100%;
+}
+
+.depost-fiat .hilight {
+  background: #c4f4c4 !important;
+  border: 1px solid #4da74d;
+
+}
+
+.depost-fiat .side-img {
+  width: 70%;
+  margin: 0px auto;
+}
+
+.depost-fiat .side-img img {
+  width: 100%;
+  margin: 0px auto;
+}
+
+.depost-fiat .info {
+  background: #dcdcdc9e;
+  padding: 13px 17px 0px 17px;
+  margin-bottom: 18px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 991px){
+  .swapContainer{
+    display: block;
+  }
+}

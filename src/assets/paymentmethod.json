@@ -1,0 +1,8 @@
+{
+  "method": [
+    "gpay",
+    "paytm",
+    "phonepe",
+    "upi"
+  ]
+}

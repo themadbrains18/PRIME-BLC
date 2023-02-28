@@ -1,0 +1,202 @@
+
+.p2p__myads__main{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.p2p__ads__tmb_container{
+  max-width: 1241px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.p2p__postListing__main{
+  padding: 24px;
+    overflow: auto;
+}
+.p2p__postListing__main td,
+.p2p__postListing__main th
+{
+  padding:12px 10px !important;
+}
+
+.qwe > .nav-item .nav-link.active {
+  color: #f4a203;
+}
+
+.qwe > .nav-item .nav-link.inactive {
+  color: #ccc;
+}
+
+.qwe > .nav-item:hover{
+  color: #f4a203;
+}
+
+#mainForm .deposit_dropdown_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  max-width: 535px;
+  width: 100%;
+  position: relative;
+  max-width: 100%;
+  border: 1px solid #ced4da;
+}
+
+#mainForm .deposit_button_text {
+  color: #000;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 26px;
+}
+#mainForm .deposit_button_icon img {
+  width: 12px;
+  right: 15px;
+  top: 15px;
+  position: absolute;
+}
+
+#mainForm .coin_list_dropdown {
+  position: absolute;
+  top: 100%;
+  background: #fff;
+  z-index: 1;
+  max-width: 100%;
+  width: 100%;
+  left: 0;
+  border-radius: 8px;
+  box-shadow: 0px 0px 12px #ccccccbf;
+}
+
+#mainForm .list_content .list_text p:last-child {
+  color: #000;
+}
+
+#mainForm .list_content:hover {
+  background-color: #8f9397;
+}
+
+/* Post normal step 1 */
+
+.input_exchange_wrapper {
+  display: grid;
+  grid-template-columns: 350px 25px 350px;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed rgba(211, 211, 211, 0.6);
+  align-items: center;
+  gap: 90px;
+}
+.input_exchange_wrapper >svg {
+  max-width: 25px;
+  width: 100%;
+  margin-top: 29px;
+}
+h2.actual_price img {
+  width: 18px;
+}
+h2.actual_price {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-weight: 600;
+  font-size: 26px;
+}
+.prices {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+p.price_label {
+  font-size: 16px;
+  color: #8b8a8a;
+}
+.input_wrapper{
+  position: relative;
+  max-width: 350px;
+  width: 100%;
+}
+.input_inner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  max-width:100%;
+  background: rgba(211, 211, 211, 0.6);
+  padding: 10px;
+  border-radius: 8px;
+  position: relative;
+  cursor: pointer;
+}
+.input_inner > div img{
+  max-width: 30px;
+}
+svg.arrow_icon {
+  max-width: 22px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+.fixed_wrapper {
+  margin: 30px 0;
+  position: relative;
+}
+.fixed_input_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
+  background: #fff;
+  max-width: 350px;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+}
+.signe {
+  width: 30px;
+  height: 30px;
+  background: #ccc;
+  display: flex;
+  cursor:pointer;
+}
+.fixed_input input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  text-align: center;
+}
+.fixed_input input:focus-visible {
+  outline: unset;
+}
+.signe span{
+  margin: auto;
+}
+
+@media(max-width:991px){
+  .input_exchange_wrapper {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    place-items: center;
+  }
+  .input_exchange_wrapper >svg{
+    margin: 0;
+    transform: rotate(90deg);
+  }
+  .input_wrapper {
+    max-width: 100%;
+  }
+  .prices{
+    gap: 50px;
+  }
+}
+/* Post normal step 1 */
+
+.p2p__ads__tmb_container .toast-container{
+  position: fixed !important;
+}
+
+.p2p__ads__tmb_container .toast-container .toast{
+  width: 100%;
+}

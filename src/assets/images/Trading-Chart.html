@@ -1,0 +1,1685 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)https://themadbrains18.github.io/STA-EXCHANGE/trading-chart.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading-Chart</title>
+    <!-- Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./Trading-Chart_files/css2" rel="stylesheet">
+    <!-- Link Css -->
+    <link rel="stylesheet" href="./Trading-Chart_files/style.css">
+
+</head>
+
+<body>
+    <!-- Section Header  -->
+    <header className="header chart--header">
+        <a className="header__logo" href="https://themadbrains18.github.io/STA-EXCHANGE/kucoin.html">
+            <img src="./Trading-Chart_files/header-logo.svg" alt="">
+        </a>
+        <ul className="header__list">
+            <li className="header__item">
+                <button className="header__tour__btn" onclick="assetsView()">
+                    Tour
+                </button>
+            </li>
+            <li className="header__item">
+                <button className="news__icon">
+                    <img src="./Trading-Chart_files/news-icon.svg" alt="">
+                </button>
+            </li>
+            <li className="header__item">
+                <button className="sunny__icon">
+                    <img src="./Trading-Chart_files/sunny-day-icon.svg" alt="">
+                </button>
+            </li>
+            <li className="header__item">
+                <button className="wifi__svg__icon">
+                    <img src="./Trading-Chart_files/wifi-icon.svg" alt="">
+                </button>
+            </li>
+            <li className="header__item">
+                <button className="login">
+                    Login
+                </button>
+            </li>
+            <li className="header__item">
+                <a href="https://themadbrains18.github.io/STA-EXCHANGE/sign-up.html" className="Sign__up">
+                    Sign Up
+                </a>
+            </li>
+        </ul>
+
+
+    </header>
+    <main>
+        <!-- Section Graph -->
+        <div className="tradingview-widget-container">
+            <div id="tradingview_00101"><div id="tradingview_8169b-wrapper" style="position: relative;box-sizing: content-box;width: 1536px;height: calc(338px - 32px);margin: 0 auto !important;padding: 0 !important;font-family:Arial,sans-serif;"><div style="width: 1536px;height: calc(338px - 32px);background: transparent;padding: 0 !important;"><iframe id="tradingview_8169b" src="./Trading-Chart_files/saved_resource.html" style="width: 100%; height: 100%; margin: 0 !important; padding: 0 !important;" frameborder="0" allowtransparency="true" scrolling="no" allowfullscreen=""></iframe></div></div></div>
+            <div className="tradingview-widget-copyright" style="width: 100%;">
+                <a href="https://in.tradingview.com/symbols/NASDAQ-AAPL/" rel="noopener" target="_blank">
+                    <span className="blue-text">AAPL Chart</span></a> by TradingView
+            </div>
+        </div>
+        <!-- Section Bottom Tabs -->
+        <div className="order__wapper">
+            <div className="order__tabs">
+                <div className="assets__overview">
+                    <div className="assets__view">
+                        <a href="https://themadbrains18.github.io/STA-EXCHANGE/trading-chart.html">
+                            Assets Overview
+                        </a>
+                        <span>
+                            <img src="./Trading-Chart_files/eye-icon.svg" alt="">
+                        </span>
+                    </div>
+                    <div className="tour__popup" id="assetsView">
+                        <h4>
+                            Assets Overview
+                        </h4>
+                        <p>
+                            The balance in your Main Account, Trading Account and Margin Account is shown here.
+                        </p>
+                        <div className="popup__footer">
+                            <div className="pagination">
+                                <span className="active"></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div className="next__prev__btn">
+                                <button className="next__button" onclick="BuyingSelling()">
+                                    Next
+                                </button>
+                            </div>
+                        </div>
+                        <button className="close__btn" onclick="closePopup()">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 378.303 378.303" style="enable-background:new 0 0 378.303 378.303;" xml:space="preserve">
+                                <polygon style="fill:rgb(29, 34, 42);" points="378.303,28.285 350.018,0 189.151,160.867 28.285,0 0,28.285 160.867,189.151 0,350.018 
+                                    28.285,378.302 189.151,217.436 350.018,378.302 378.303,350.018 217.436,189.151 ">
+                                </polygon>
+                                <g>
+                                </g>
+                            </svg>
+                        </button>
+                    </div>
+                    <div className="account__balance active" value="spotBtn">
+                        <a className="main__account" href="https://themadbrains18.github.io/STA-EXCHANGE/log-in.html">Main Account</a>
+                        <div className="balance">
+                            <div className="balance__inner">
+                                <h6 className="balance__heading">
+                                    BTC balance:
+                                    <span>
+                                        - -
+                                    </span>
+                                </h6>
+                                <h6 className="balance__heading">
+                                    USDT balance:
+                                    <span>
+                                        - -
+                                    </span>
+                                </h6>
+                            </div>
+                            <a className="trading__account" href="https://themadbrains18.github.io/STA-EXCHANGE/log-in.html">Trading Account</a>
+                            <div className="balance__inner">
+                                <h6 className="balance__heading">
+                                    BTC balance:
+                                    <span>
+                                        - -
+                                    </span>
+                                </h6>
+                                <h6 className="balance__heading">
+                                    USDT balance:
+                                    <span>
+                                        - -
+                                    </span>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="account__balance" value="crossBtn">
+                        <div>
+                            <a className="main__account cross__margin__account" href="https://themadbrains18.github.io/STA-EXCHANGE/log-in.html">Cross Margin
+                                Account</a>
+                            <h6 className="balance__heading">
+                                Estimated Value:
+                                <span>
+                                    - -
+                                </span>
+                            </h6>
+                        </div>
+                        <div className="balance">
+                            <div className="balance__inner">
+                                <h6 className="balance__heading">
+                                    BTC balance:
+                                    <span>
+                                        - -
+                                    </span>
+                                </h6>
+                                <h6 className="balance__heading">
+                                    USDT balance:
+                                    <span>
+                                        - -
+                                    </span>
+                                </h6>
+                            </div>
+                            <div className="balance__inner">
+                                <h6 className="balance__heading">
+                                    Debt Ratio:
+                                    <span className="cross__Dassed">
+                                        - -
+                                    </span>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="account__balance" value="isolatedBtn">
+                        <div>
+                            <a className="main__account cross__margin__account" href="https://themadbrains18.github.io/STA-EXCHANGE/log-in.html">Isolated Margin
+                                BTC-USDT</a>
+                            <h6 className="balance__heading">
+                                Estimated Value:
+                                <span>
+                                    - -
+                                </span>
+                            </h6>
+                        </div>
+                        <div className="balance">
+                            <div className="balance__inner">
+                                <h6 className="balance__heading">
+                                    BTC balance:
+                                    <span>
+                                        - -
+                                    </span>
+                                </h6>
+                                <h6 className="balance__heading">
+                                    USDT balance:
+                                    <span>
+                                        - -
+                                    </span>
+                                </h6>
+                            </div>
+                            <div className="balance__inner">
+                                <h6 className="balance__heading">
+                                    Debt Ratio:
+                                    <span className="cross__Dassed">
+                                        - -
+                                    </span>
+                                </h6>
+                                <h6 className="balance__heading">
+                                    Liquidation price:
+                                    <span className="cross__Dassed">
+                                        --
+                                    </span>
+                                    <span className="usdt">
+                                        USDT
+                                    </span>
+                                </h6>
+                            </div>
+                            <div className="balance__inner">
+                                <h6 className="balance__heading ">
+                                    <div className="pnl">
+                                        PNL(USDT)
+                                    </div>
+                                    <span className="cross__Dassed">
+                                        :- -
+                                    </span>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="login__singin">
+                       
+                            Log In
+                       
+                        <a href="https://themadbrains18.github.io/STA-EXCHANGE/sign-up.html">
+                            Sign Up</a>
+                    </div>
+                </div>
+                <div className="order__details">
+                    <div className="order__details__inner">
+                        <button className="order__button active" value="0">
+                            Open Orders
+                        </button>
+                        <button className="order__button" value="1">
+                            Stop Orders
+                        </button>
+                        <button className="order__button" value="2">
+                            Order History
+                        </button>
+                        <button className="order__button" value="3">
+                            Trade History
+                        </button>
+                    </div>
+                    <div className="margin__tabs">
+                        <button className="order__margin__button active spot__btn" value="spotBtn">
+                            Spot
+                        </button>
+                        <button className="order__margin__button cros__btn" value="crossBtn">
+                            Cross
+                        </button>
+                        <button className="order__margin__button Isolated__btn" value="isolatedBtn">
+                            Isolated
+                        </button>
+                    </div>
+                    <button className="notification__icon select__sound">
+                        <img src="./Trading-Chart_files/notification-icon.svg" alt="">
+                    </button>
+                    <p className="notify__sound">
+                        Notify Sound for the Trades
+                    </p>
+                </div>
+                <div className="order__wrapper">
+                    <div className="order__data active">
+                        <div className="order__tabs__Data">
+                            <div className="order__tabs__inner__Data">
+                                <h4>
+                                    Time
+                                </h4>
+                            </div>
+                            <div className="order__tabs__inner__Data tabs__dropdown">
+                                <button className="pairs__button">
+                                    <span>All Pairs</span>
+                                    <img src="./Trading-Chart_files/dropdown-icon.svg" alt="">
+                                </button>
+                                <div className="dropdown__content">
+                                    <option className="dropdown__option">
+                                        All Pairs
+                                    </option>
+                                    <option className="dropdown__option">
+                                        Current Pair
+                                    </option>
+                                </div>
+                                <div className="dropdown__bg__layer">
+
+                                </div>
+                            </div>
+                            <div className="order__tabs__inner__Data tabs__dropdown">
+                                <button className="pairs__button">
+                                    <span>All Types</span>
+                                    <img src="./Trading-Chart_files/dropdown-icon.svg" alt="">
+                                </button>
+                                <div className="dropdown__content">
+                                    <option className="dropdown__option">
+                                        All Types
+                                    </option>
+                                    <option className="dropdown__option">
+                                        Limit Order
+                                    </option>
+                                    <option className="dropdown__option">
+                                        Market Order
+                                    </option>
+                                </div>
+                            </div>
+                            <div className="order__tabs__inner__Data tabs__dropdown">
+                                <button className="pairs__button">
+                                    <span>Buy/Sell</span>
+                                    <img src="./Trading-Chart_files/dropdown-icon.svg" alt="">
+                                </button>
+                                <div className="dropdown__content">
+                                    <option className="dropdown__option">
+                                        Sell
+                                    </option>
+                                    <option className="dropdown__option">
+                                        Buy
+                                    </option>
+                                </div>
+
+                            </div>
+                            <div className="order__tabs__inner__Data">
+                                <h4>
+                                    Price
+                                </h4>
+                            </div>
+                            <div className="order__tabs__inner__Data">
+                                <h4>
+                                    Amount
+                                </h4>
+                            </div>
+                            <div className="order__tabs__inner__Data">
+                                <h4>
+                                    Filled
+                                </h4>
+
+                            </div>
+                            <div className="order__tabs__inner__Data">
+                                <h4>
+                                    Unfilled
+                                </h4>
+                            </div>
+                            <div className="order__tabs__inner__Data cancer__order">
+                                <button className="cancel__btn">
+                                    <span>
+                                        Cancel All
+                                    </span>
+                                    <span className="cancel__icon">
+                                        <img className="cancel-order-icon" src="./Trading-Chart_files/cancel-order-icon.svg" alt="">
+                                    </span>
+                                    <div className="cancel__Popup">
+                                        <p>
+                                            Click here to all the open oders as specified (included order note display
+                                            here)
+                                        </p>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                        <ul className="inner__data__order">
+                            <li className="data">
+                                <span>Empty Data</span>
+                                <span> </span>
+                                <span></span>
+                                <span></span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                            </li>
+                            <li className="data">
+                                <span>Empty Data</span>
+                                <span> </span>
+                                <span></span>
+                                <span></span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                            </li>
+                            <li className="data">
+                                <span>Empty Data</span>
+                                <span> </span>
+                                <span></span>
+                                <span></span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                            </li>
+                            <li className="data">
+                                <span>Empty Data</span>
+                                <span> </span>
+                                <span></span>
+                                <span></span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                            </li>
+                        </ul>
+                        <div className="bottom__resul"><span>Found <span>0</span> Results. Only display the recent 30 order
+                                details in the past three months.</span>
+                            <span className="history__popup__btn" style="margin-left: 4px;">
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15 30C10.9934 30 7.22654 28.4397 4.39336 25.6066C1.56029 22.7735 0 19.0066 0 15C0 10.9934 1.56029 7.22654 4.39336 4.39336C7.22654 1.56029 10.9934 0 15 0C19.0066 0 22.7735 1.56029 25.6066 4.39336C28.4397 7.22654 30 10.9934 30 15C30 19.0066 28.4397 22.7735 25.6066 25.6066C22.7735 28.4397 19.0066 30 15 30Z" fill="#a1a4ac"></path>
+                                    <path d="M17.4769 22.5031V12.5195H11.5538V14.5162H12.6308V22.5031H11.5V24.4998H18.5V22.5031H17.4769Z" fill="#151C30"></path>
+                                    <path d="M15.1367 10.7648C16.5906 10.7648 17.7734 9.58389 17.7734 8.13239C17.7734 6.68089 16.5906 5.5 15.1367 5.5C13.6828 5.5 12.5 6.68089 12.5 8.13239C12.5 9.58389 13.6828 10.7648 15.1367 10.7648Z" fill="#151C30"></path>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div className="order__data stop__orders__data">
+                        <div className="order__tabs__Data">
+                            <div className="order__tabs__inner__Data">
+                                <h4>
+                                    Time
+                                </h4>
+                            </div>
+                            <div className="order__tabs__inner__Data tabs__dropdown">
+                                <button className="pairs__button">
+                                    <span>All Pairs</span>
+                                    <img src="./Trading-Chart_files/dropdown-icon.svg" alt="">
+                                </button>
+                                <div className="dropdown__content">
+                                    <option className="dropdown__option">
+                                        All Pairs
+                                    </option>
+                                    <option className="dropdown__option">
+                                        Current Pair
+                                    </option>
+                                </div>
+                            </div>
+                            <div className="order__tabs__inner__Data tabs__dropdown">
+                                <button className="pairs__button">
+                                    <span>All Types</span>
+                                    <img src="./Trading-Chart_files/dropdown-icon.svg" alt="">
+                                </button>
+                                <div className="dropdown__content">
+                                    <option className="dropdown__option">
+                                        All Types
+                                    </option>
+                                    <option className="dropdown__option">
+                                        Limit Order
+                                    </option>
+                                    <option className="dropdown__option">
+                                        Market Order
+                                    </option>
+                                </div>
+                            </div>
+                            <div className="order__tabs__inner__Data tabs__dropdown">
+                                <button className="pairs__button">
+                                    <span>Buy/Sell</span>
+                                    <img src="./Trading-Chart_files/dropdown-icon.svg" alt="">
+                                </button>
+                                <div className="dropdown__content">
+                                    <option className="dropdown__option">
+                                        Sell
+                                    </option>
+                                    <option className="dropdown__option">
+                                        Buy
+                                    </option>
+                                </div>
+
+                            </div>
+                            <div className="order__tabs__inner__Data">
+                                <h4>
+                                    Stop Price
+                                </h4>
+                            </div>
+                            <div className="order__tabs__inner__Data">
+                                <h4>
+                                    Price
+                                </h4>
+                            </div>
+                            <div className="order__tabs__inner__Data">
+                                <h4>
+                                    Amount
+                                </h4>
+                            </div>
+                            <div className="order__tabs__inner__Data cancer__order">
+                                <button className="cancel__btn">
+                                    <span>
+                                        Cancel All
+                                    </span>
+                                    <span className="cancel__icon">
+                                        <img className="cancel-order-icon" src="./Trading-Chart_files/cancel-order-icon.svg" alt="">
+                                    </span>
+                                    <div className="cancel__Popup">
+                                        <p>
+                                            Click here to all the open oders as specified (included order note display
+                                            here)
+                                        </p>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                        <ul className="inner__data__order">
+                            <li className="data">
+                                <span>Empty Data</span>
+                                <span> </span>
+                                <span></span>
+                                <span></span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+
+                            </li>
+                            <li className="data">
+                                <span>Empty Data</span>
+                                <span> </span>
+                                <span></span>
+                                <span></span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                            </li>
+                            <li className="data">
+                                <span>Empty Data</span>
+                                <span> </span>
+                                <span></span>
+                                <span></span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                            </li>
+                            <li className="data">
+                                <span>Empty Data</span>
+                                <span> </span>
+                                <span></span>
+                                <span></span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                            </li>
+                        </ul>
+                        <div className="bottom__resul"><span>Found <span>0</span> Results. Only display the recent 30 order
+                                details in the past three months.</span>
+                            <span className="history__popup__btn" style="margin-left: 4px;">
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15 30C10.9934 30 7.22654 28.4397 4.39336 25.6066C1.56029 22.7735 0 19.0066 0 15C0 10.9934 1.56029 7.22654 4.39336 4.39336C7.22654 1.56029 10.9934 0 15 0C19.0066 0 22.7735 1.56029 25.6066 4.39336C28.4397 7.22654 30 10.9934 30 15C30 19.0066 28.4397 22.7735 25.6066 25.6066C22.7735 28.4397 19.0066 30 15 30Z" fill="#a1a4ac"></path>
+                                    <path d="M17.4769 22.5031V12.5195H11.5538V14.5162H12.6308V22.5031H11.5V24.4998H18.5V22.5031H17.4769Z" fill="#151C30"></path>
+                                    <path d="M15.1367 10.7648C16.5906 10.7648 17.7734 9.58389 17.7734 8.13239C17.7734 6.68089 16.5906 5.5 15.1367 5.5C13.6828 5.5 12.5 6.68089 12.5 8.13239C12.5 9.58389 13.6828 10.7648 15.1367 10.7648Z" fill="#151C30"></path>
+                                </svg>
+
+                            </span>
+                        </div>
+                    </div>
+                    <div className="order__data">
+                        <div className="order__tabs__Data">
+                            <div className="order__tabs__inner__Data">
+                                <h4>
+                                    Time
+                                </h4>
+                            </div>
+                            <div className="order__tabs__inner__Data tabs__dropdown">
+                                <button className="pairs__button">
+                                    <span>All Pairs</span>
+                                    <img src="./Trading-Chart_files/dropdown-icon.svg" alt="">
+                                </button>
+                                <div className="dropdown__content">
+                                    <option className="dropdown__option">
+                                        All Pairs
+                                    </option>
+                                    <option className="dropdown__option">
+                                        Current Pair
+                                    </option>
+                                </div>
+                            </div>
+                            <div className="order__tabs__inner__Data tabs__dropdown">
+                                <button className="pairs__button">
+                                    <span>All Types</span>
+                                    <img src="./Trading-Chart_files/dropdown-icon.svg" alt="">
+                                </button>
+                                <div className="dropdown__content">
+                                    <option className="dropdown__option">
+                                        All Types
+                                    </option>
+                                    <option className="dropdown__option">
+                                        Limit Order
+                                    </option>
+                                    <option className="dropdown__option">
+                                        Market Order
+                                    </option>
+                                    <option className="dropdown__option">
+                                        Stop Market
+                                    </option>
+                                    <option className="dropdown__option">
+                                        Stop Limit
+                                    </option>
+                                </div>
+                            </div>
+                            <div className="order__tabs__inner__Data tabs__dropdown">
+                                <button className="pairs__button">
+                                    <span>Buy/Sell</span>
+                                    <img src="./Trading-Chart_files/dropdown-icon.svg" alt="">
+                                </button>
+                                <div className="dropdown__content">
+                                    <option className="dropdown__option">
+                                        Buy/Sell
+                                    </option>
+                                    <option className="dropdown__option">
+                                        Sell
+                                    </option>
+                                    <option className="dropdown__option">
+                                        Buy
+                                    </option>
+                                </div>
+                            </div>
+                            <div className="order__tabs__inner__Data">
+                                <h4>
+                                    Price
+                                </h4>
+                            </div>
+                            <div className="order__tabs__inner__Data">
+                                <h4>
+                                    Amount
+                                </h4>
+                            </div>
+                            <div className="order__tabs__inner__Data">
+                                <h4>
+                                    Filled
+                                </h4>
+                            </div>
+                            <div className="order__tabs__inner__Data">
+                                <h4>
+                                    Avg. Price
+                                </h4>
+                            </div>
+                            <div className="order__tabs__inner__Data cancer__order">
+                                <div className="order__tabs__inner__Data tabs__dropdown">
+                                    <button className="pairs__button">
+                                        <span>All</span>
+                                        <img src="./Trading-Chart_files/dropdown-icon.svg" alt="">
+                                    </button>
+                                    <div className="dropdown__content">
+                                        <option className="dropdown__option">
+                                            All
+                                        </option>
+                                        <option className="dropdown__option">
+                                            Completed
+                                        </option>
+                                        <option className="dropdown__option">
+                                            Cancelled
+                                        </option>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul className="inner__data__order">
+                            <li className="data">
+                                <span>Empty Data</span>
+                                <span> </span>
+                                <span></span>
+                                <span></span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                            </li>
+                            <li className="data">
+                                <span>Empty Data</span>
+                                <span> </span>
+                                <span></span>
+                                <span></span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                            </li>
+                            <li className="data">
+                                <span>Empty Data</span>
+                                <span> </span>
+                                <span></span>
+                                <span></span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+
+                            </li>
+                            <li className="data">
+                                <span>Empty Data</span>
+                                <span> </span>
+                                <span></span>
+                                <span></span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                            </li>
+                        </ul>
+                        <div className="bottom__resul"><span>Found <span>0</span> Results. Only display the recent 30 order
+                                details in the past three months.</span>
+                            <span className="history__popup__btn" style="margin-left: 4px;">
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15 30C10.9934 30 7.22654 28.4397 4.39336 25.6066C1.56029 22.7735 0 19.0066 0 15C0 10.9934 1.56029 7.22654 4.39336 4.39336C7.22654 1.56029 10.9934 0 15 0C19.0066 0 22.7735 1.56029 25.6066 4.39336C28.4397 7.22654 30 10.9934 30 15C30 19.0066 28.4397 22.7735 25.6066 25.6066C22.7735 28.4397 19.0066 30 15 30Z" fill="#a1a4ac"></path>
+                                    <path d="M17.4769 22.5031V12.5195H11.5538V14.5162H12.6308V22.5031H11.5V24.4998H18.5V22.5031H17.4769Z" fill="#151C30"></path>
+                                    <path d="M15.1367 10.7648C16.5906 10.7648 17.7734 9.58389 17.7734 8.13239C17.7734 6.68089 16.5906 5.5 15.1367 5.5C13.6828 5.5 12.5 6.68089 12.5 8.13239C12.5 9.58389 13.6828 10.7648 15.1367 10.7648Z" fill="#151C30"></path>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div className="order__data trade__history__Data">
+                        <div className="order__tabs__Data">
+                            <div className="order__tabs__inner__Data">
+                                <h4>
+                                    Filled Time
+                                </h4>
+                            </div>
+                            <div className="order__tabs__inner__Data tabs__dropdown">
+                                <button className="pairs__button">
+                                    <span>All Pairs</span>
+                                    <img src="./Trading-Chart_files/dropdown-icon.svg" alt="">
+                                </button>
+                                <div className="dropdown__content">
+                                    <option className="dropdown__option">
+                                        All Pairs
+                                    </option>
+                                    <option className="dropdown__option">
+                                        Current Pair
+                                    </option>
+                                </div>
+                            </div>
+                            <div className="order__tabs__inner__Data tabs__dropdown">
+                                <button className="pairs__button">
+                                    <span>All Types</span>
+                                    <img src="./Trading-Chart_files/dropdown-icon.svg" alt="">
+                                </button>
+                                <div className="dropdown__content">
+                                    <option className="dropdown__option">
+                                        All Types
+                                    </option>
+                                    <option className="dropdown__option">
+                                        Limit Order
+                                    </option>
+                                    <option className="dropdown__option">
+                                        Market Order
+                                    </option>
+                                    <option className="dropdown__option">
+                                        Stop Market
+                                    </option>
+                                    <option className="dropdown__option">
+                                        Stop Limit
+                                    </option>
+                                </div>
+                            </div>
+                            <div className="order__tabs__inner__Data tabs__dropdown">
+                                <button className="pairs__button">
+                                    <span>Buy/Sell</span>
+                                    <img src="./Trading-Chart_files/dropdown-icon.svg" alt="">
+                                </button>
+                                <div className="dropdown__content">
+                                    <option className="dropdown__option">
+                                        Sell
+                                    </option>
+                                    <option className="dropdown__option">
+                                        Buy
+                                    </option>
+                                </div>
+                            </div>
+                            <div className="order__tabs__inner__Data">
+                                <h4>
+                                    Filled Price
+                                </h4>
+
+                            </div>
+                            <div className="order__tabs__inner__Data">
+                                <h4>
+                                    Amount
+                                </h4>
+                            </div>
+                            <div className="order__tabs__inner__Data">
+                                <h4>
+                                    Volume
+                                </h4>
+                            </div>
+                            <div className="order__tabs__inner__Data">
+                                <h4>
+                                    Fee
+                                </h4>
+                            </div>
+                        </div>
+                        <ul className="inner__data__order">
+                            <li className="data">
+                                <span>Empty Data</span>
+                                <span> </span>
+                                <span></span>
+                                <span></span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                            </li>
+                            <li className="data">
+                                <span>Empty Data</span>
+                                <span> </span>
+                                <span></span>
+                                <span></span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                            </li>
+                            <li className="data">
+                                <span>Empty Data</span>
+                                <span> </span>
+                                <span></span>
+                                <span></span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                            </li>
+                            <li className="data">
+                                <span>Empty Data</span>
+                                <span> </span>
+                                <span></span>
+                                <span></span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                                <span>Empty Data</span>
+                            </li>
+                        </ul>
+                        <div className="bottom__resul"><span>Found <span>0</span> Results. Only display the recent 30 order
+                                details in the past three months.</span>
+                            <span className="history__popup__btn" style="margin-left: 4px;">
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15 30C10.9934 30 7.22654 28.4397 4.39336 25.6066C1.56029 22.7735 0 19.0066 0 15C0 10.9934 1.56029 7.22654 4.39336 4.39336C7.22654 1.56029 10.9934 0 15 0C19.0066 0 22.7735 1.56029 25.6066 4.39336C28.4397 7.22654 30 10.9934 30 15C30 19.0066 28.4397 22.7735 25.6066 25.6066C22.7735 28.4397 19.0066 30 15 30Z" fill="#a1a4ac"></path>
+                                    <path d="M17.4769 22.5031V12.5195H11.5538V14.5162H12.6308V22.5031H11.5V24.4998H18.5V22.5031H17.4769Z" fill="#151C30"></path>
+                                    <path d="M15.1367 10.7648C16.5906 10.7648 17.7734 9.58389 17.7734 8.13239C17.7734 6.68089 16.5906 5.5 15.1367 5.5C13.6828 5.5 12.5 6.68089 12.5 8.13239C12.5 9.58389 13.6828 10.7648 15.1367 10.7648Z" fill="#151C30"></path>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div className="no-data" style="display:none">
+                        <img src="./Trading-Chart_files/no-data.svg" alt="">
+                        <span>No Data</span>
+                    </div>
+                    <div className="history__popup">
+                        <span>
+                            For more order details, please check <a href="https://themadbrains18.github.io/STA-EXCHANGE/trading-chart.html">Order History</a>.
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div className="aside__price__box">
+                <div className="order__details">
+                    <div className="order__details__inner">
+                        <button className="aside__tabs spot__tab__btn active" value="spotBtn">
+                            Spot
+                        </button>
+                        <button className="aside__tabs isolated__margin" value="crossBtn">
+                            <span className="Isolated__margin__text">
+                                Isolated Margin
+                            </span>
+                            <span className="isolated__margin__number">10X</span>
+                            <img className="isolate__margin__btn tabs__dropdown" src="./Trading-Chart_files/dropdown-icon.svg" alt="">
+                            <div className="dropdown__content">
+                                <option className="dropdown__option" value="crossBtn">
+                                    Cross Margin
+                                </option>
+                                <option className="dropdown__option" value="isolatedBtn">
+                                    Isolated Margin
+                                </option>
+                            </div>
+                        </button>
+                        <button className=" isolated__margin">
+                            Futures
+                            <span className="isolated__margin__number">100X</span>
+                            Grid
+                        </button>
+                    </div>
+                    <div className="notification__icon tranding__fee">
+                        <img src="./Trading-Chart_files/trading-fee-icon.svg" alt="">
+                    </div>
+                    <div className="tranding__fee__popup">
+                        <h3 className="popup__heading">
+                            Trading Fee Rate
+                        </h3>
+                        <p className="popup__info">
+                            Basic Trading Fee Rate of BTC/USDT: 0.1% for taker, 0.1% for maker
+                        </p>
+                        <p className="popup__info">
+                            If you have KCS and enabled the 'KCS Pay Fees' feature, you'll get an extra 20% discount on
+                            your
+                            trading fees.
+                        </p>
+                    </div>
+                </div>
+                <div className="order__details">
+                    <div className="order__details__inner">
+                        <button className="limit__tabs__button active" value="0">
+                            Limit
+                        </button>
+                        <button className="limit__tabs__button" value="1">
+                            Market
+                        </button>
+                    </div>
+                    <div className=" aside__inner__dropdown">
+                        <button className="pairs__button__aside">
+                            <span>Stop Limit</span>
+                            <img src="./Trading-Chart_files/dropdown-icon.svg" alt="">
+                        </button>
+                        <div className="dropdown__content__aside">
+                            <option className="dropdown__option__aside limit__tabs__button" value="2">
+                                Stop Limit
+                            </option>
+                            <option className="dropdown__option__aside stop__market__btn limit__tabs__button" value="3">
+                                Stop Market
+                            </option>
+                        </div>
+
+                    </div>
+                    <div className="checkbox__icon">
+                        <span className="auto__borrow">Auto-Borrow</span>
+                        <span className="input__box active"></span>
+                    </div>
+                    <div className="notification__icon">
+                        <svg width="13" height="13" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15 30C10.9934 30 7.22654 28.4397 4.39336 25.6066C1.56029 22.7735 0 19.0066 0 15C0 10.9934 1.56029 7.22654 4.39336 4.39336C7.22654 1.56029 10.9934 0 15 0C19.0066 0 22.7735 1.56029 25.6066 4.39336C28.4397 7.22654 30 10.9934 30 15C30 19.0066 28.4397 22.7735 25.6066 25.6066C22.7735 28.4397 19.0066 30 15 30Z" fill="#a1a4ac"></path>
+                            <path d="M17.4769 22.5031V12.5195H11.5538V14.5162H12.6308V22.5031H11.5V24.4998H18.5V22.5031H17.4769Z" fill="#151C30"></path>
+                            <path d="M15.1367 10.7648C16.5906 10.7648 17.7734 9.58389 17.7734 8.13239C17.7734 6.68089 16.5906 5.5 15.1367 5.5C13.6828 5.5 12.5 6.68089 12.5 8.13239C12.5 9.58389 13.6828 10.7648 15.1367 10.7648Z" fill="#151C30"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div className="price__wrapper active">
+                    <div className="price__input">
+                        <div className="price__box">
+                            <input type="number" placeholder="Price">
+                            <span>USDT</span>
+                            <div className="increase__decrease__value">
+                                <button>+</button>
+                                <button>-</button>
+                            </div>
+                        </div>
+                        <div className="price__box">
+                            <input type="number" placeholder="Amount">
+                            <span>BTC</span>
+                            <div className="increase__decrease__value">
+                                <button>+</button>
+                                <button>-</button>
+                            </div>
+                        </div>
+                        <div className="percentage">
+                            <span>25%</span>
+                            <span>50%</span>
+                            <span>75%</span>
+                            <span>100%</span>
+                        </div>
+                        <div className="availabe">
+                            <div className="inner__item">
+                                <span>
+                                    Available：
+                                </span>
+                                <span>
+                                    0 USDT
+                                    <span>
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fillRule="evenodd" clip-rule="evenodd" d="M7.88744 0.799805L7.12818 1.4506L8.71329 3.2998C8.9913 3.62413 8.76085 4.1252 8.33367 4.1252H0.507812V5.1252H11.5949L7.88744 0.799805ZM11.5079 8.625V7.625H0.300781L4.15433 11.4786L4.86144 10.7714L3.56849 9.47856C3.2535 9.16358 3.47658 8.625 3.92204 8.625H11.5079Z" fill="#2DBD96"></path>
+                                        </svg>
+                                    </span>
+                                </span>
+                            </div>
+                            <div className="inner__item">
+                                <span>
+                                    Volume:
+                                </span>
+                                <span>
+                                    0 USDT
+                                </span>
+                            </div>
+                            <div className="inner__item">
+                                <span>
+                                    Advanced: -
+                                </span>
+                                <span>
+                                    Settings
+                                </span>
+                            </div>
+                        </div>
+                        <button className="Login__Sing__in__btn">
+                            <a className="login">Log In</a>
+                            <span>
+                                Or
+                            </span>
+                            <a href="https://themadbrains18.github.io/STA-EXCHANGE/sign-up.html">Sign Up</a>
+                        </button>
+                    </div>
+                    <div className="price__input">
+                        <div className="price__box">
+                            <input type="number" placeholder="Price">
+                            <span>USDT</span>
+                            <div className="increase__decrease__value">
+                                <button>+</button>
+                                <button>-</button>
+                            </div>
+                        </div>
+                        <div className="price__box">
+                            <input type="number" placeholder="Amount">
+                            <span>BTC</span>
+                            <div className="increase__decrease__value">
+                                <button>+</button>
+                                <button>-</button>
+                            </div>
+                        </div>
+                        <div className="percentage">
+                            <span>25%</span>
+                            <span>50%</span>
+                            <span>75%</span>
+                            <span>100%</span>
+                        </div>
+                        <div className="availabe">
+                            <div className="inner__item">
+                                <span>
+                                    Available：
+                                </span>
+                                <span>
+                                    0 USDT
+                                    <span>
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fillRule="evenodd" clip-rule="evenodd" d="M7.88744 0.799805L7.12818 1.4506L8.71329 3.2998C8.9913 3.62413 8.76085 4.1252 8.33367 4.1252H0.507812V5.1252H11.5949L7.88744 0.799805ZM11.5079 8.625V7.625H0.300781L4.15433 11.4786L4.86144 10.7714L3.56849 9.47856C3.2535 9.16358 3.47658 8.625 3.92204 8.625H11.5079Z" fill="#2DBD96"></path>
+                                        </svg>
+                                    </span>
+                                </span>
+                            </div>
+                            <div className="inner__item">
+                                <span>
+                                    Volume:
+                                </span>
+                                <span>
+                                    0 USDT
+                                </span>
+                            </div>
+                            <div className="inner__item">
+                                <span>
+                                    Advanced: -
+
+                                </span>
+                                <span>
+                                    Settings
+                                </span>
+                            </div>
+                        </div>
+                        <button className="Login__Sing__in__btn">
+                            <a className="login">Log In</a>
+                            <span>
+                                Or
+                            </span>
+                            <a href="https://themadbrains18.github.io/STA-EXCHANGE/sign-up.html">Sign Up</a>
+                        </button>
+                    </div>
+                </div>
+                <div className="price__wrapper">
+                    <div className="price__input">
+                        <div className="price__box">
+                            <input type="number" readonly="" placeholder="Best Market Price">
+                        </div>
+                        <div className="price__box">
+                            <input type="number" placeholder="Amount">
+                            <span>BTC</span>
+                            <div className="increase__decrease__value">
+                                <button>+</button>
+                                <button>-</button>
+                            </div>
+                        </div>
+                        <div className="percentage">
+                            <span>25%</span>
+                            <span>50%</span>
+                            <span>75%</span>
+                            <span>100%</span>
+                        </div>
+                        <div className="availabe">
+                            <div className="inner__item">
+                                <span>
+                                    Available：
+                                </span>
+                                <span>
+                                    0 USDT
+                                    <span>
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fillRule="evenodd" clip-rule="evenodd" d="M7.88744 0.799805L7.12818 1.4506L8.71329 3.2998C8.9913 3.62413 8.76085 4.1252 8.33367 4.1252H0.507812V5.1252H11.5949L7.88744 0.799805ZM11.5079 8.625V7.625H0.300781L4.15433 11.4786L4.86144 10.7714L3.56849 9.47856C3.2535 9.16358 3.47658 8.625 3.92204 8.625H11.5079Z" fill="#2DBD96"></path>
+                                        </svg>
+                                    </span>
+                                </span>
+                            </div>
+                            <div className="inner__item">
+                                <span>
+                                    Volume:
+                                </span>
+                                <span>
+                                    0 USDT
+                                </span>
+                            </div>
+                        </div>
+                        <button className="Login__Sing__in__btn">
+                            <a className="login">Log In</a>
+                            <span>
+                                Or
+                            </span>
+                            <a href="https://themadbrains18.github.io/STA-EXCHANGE/sign-up.html">Sign Up</a>
+                        </button>
+                    </div>
+                    <div className="price__input">
+                        <div className="price__box">
+                            <input type="number" readonly="" placeholder="Best Market Price">
+                        </div>
+                        <div className="price__box">
+                            <input type="number" placeholder="Amount">
+                            <span>BTC</span>
+                            <div className="increase__decrease__value">
+                                <button>+</button>
+                                <button>-</button>
+                            </div>
+                        </div>
+                        <div className="percentage">
+                            <span>25%</span>
+                            <span>50%</span>
+                            <span>75%</span>
+                            <span>100%</span>
+                        </div>
+                        <div className="availabe">
+                            <div className="inner__item">
+                                <span>
+                                    Available：
+                                </span>
+                                <span>
+                                    0 USDT
+                                    <span>
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fillRule="evenodd" clip-rule="evenodd" d="M7.88744 0.799805L7.12818 1.4506L8.71329 3.2998C8.9913 3.62413 8.76085 4.1252 8.33367 4.1252H0.507812V5.1252H11.5949L7.88744 0.799805ZM11.5079 8.625V7.625H0.300781L4.15433 11.4786L4.86144 10.7714L3.56849 9.47856C3.2535 9.16358 3.47658 8.625 3.92204 8.625H11.5079Z" fill="#2DBD96"></path>
+                                        </svg>
+                                    </span>
+                                </span>
+                            </div>
+                            <div className="inner__item">
+                                <span>
+                                    Volume:
+                                </span>
+                                <span>
+                                    0 USDT
+                                </span>
+                            </div>
+                        </div>
+                        <button className="Login__Sing__in__btn">
+                            <a className="login">Log In</a>
+                            <span>
+                                Or
+                            </span>
+                            <a href="https://themadbrains18.github.io/STA-EXCHANGE/sign-up.html">Sign Up</a>
+                        </button>
+                    </div>
+                </div>
+                <div className="price__wrapper ">
+                    <div className="price__input">
+                        <div className="price__box">
+                            <input type="number" placeholder="Stop Price">
+                            <span>USDT</span>
+                            <div className="increase__decrease__value">
+                                <button>+</button>
+                                <button>-</button>
+                            </div>
+                        </div>
+                        <div className="price__box">
+                            <input type="number" placeholder="Price">
+                            <span>USDT</span>
+                            <div className="increase__decrease__value">
+                                <button>+</button>
+                                <button>-</button>
+                            </div>
+                        </div>
+
+                        <div className="price__box">
+                            <input type="number" placeholder="Amount">
+                            <span>BTC</span>
+                            <div className="increase__decrease__value">
+                                <button>+</button>
+                                <button>-</button>
+                            </div>
+                        </div>
+
+                        <div className="percentage">
+                            <span>25%</span>
+                            <span>50%</span>
+                            <span>75%</span>
+                            <span>100%</span>
+                        </div>
+                        <div className="availabe">
+                            <div className="inner__item">
+                                <span>
+                                    Available：
+                                </span>
+                                <span>
+                                    0 USDT
+                                    <span>
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fillRule="evenodd" clip-rule="evenodd" d="M7.88744 0.799805L7.12818 1.4506L8.71329 3.2998C8.9913 3.62413 8.76085 4.1252 8.33367 4.1252H0.507812V5.1252H11.5949L7.88744 0.799805ZM11.5079 8.625V7.625H0.300781L4.15433 11.4786L4.86144 10.7714L3.56849 9.47856C3.2535 9.16358 3.47658 8.625 3.92204 8.625H11.5079Z" fill="#2DBD96"></path>
+                                        </svg>
+                                    </span>
+                                </span>
+
+                            </div>
+                            <div className="inner__item">
+                                <span>
+                                    Volume:
+                                </span>
+                                <span>
+                                    0 USDT
+                                </span>
+
+                            </div>
+                            <div className="inner__item">
+                                <span>
+                                    Advanced: -
+
+                                </span>
+                                <span>
+                                    Settings
+                                </span>
+                            </div>
+                        </div>
+                        <button className="Login__Sing__in__btn">
+                            <a className="login">Log In</a>
+                            <span>
+                                Or
+                            </span>
+                            <a href="https://themadbrains18.github.io/STA-EXCHANGE/sign-up.html">Sign Up</a>
+                        </button>
+                    </div>
+                    <div className="price__input">
+                        <div className="price__box">
+                            <input type="number" placeholder="Stop Price">
+                            <span>USDT</span>
+                            <div className="increase__decrease__value">
+                                <button>+</button>
+                                <button>-</button>
+                            </div>
+                        </div>
+                        <div className="price__box">
+                            <input type="number" placeholder="Price">
+                            <span>USDT</span>
+                            <div className="increase__decrease__value">
+                                <button>+</button>
+                                <button>-</button>
+                            </div>
+                        </div>
+                        <div className="price__box">
+                            <input type="number" placeholder="Amount">
+                            <span>BTC</span>
+                            <div className="increase__decrease__value">
+                                <button>+</button>
+                                <button>-</button>
+                            </div>
+                        </div>
+                        <div className="percentage">
+                            <span>25%</span>
+                            <span>50%</span>
+                            <span>75%</span>
+                            <span>100%</span>
+                        </div>
+                        <div className="availabe">
+                            <div className="inner__item">
+                                <span>
+                                    Available：
+                                </span>
+                                <span>
+                                    0 USDT
+                                    <span>
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fillRule="evenodd" clip-rule="evenodd" d="M7.88744 0.799805L7.12818 1.4506L8.71329 3.2998C8.9913 3.62413 8.76085 4.1252 8.33367 4.1252H0.507812V5.1252H11.5949L7.88744 0.799805ZM11.5079 8.625V7.625H0.300781L4.15433 11.4786L4.86144 10.7714L3.56849 9.47856C3.2535 9.16358 3.47658 8.625 3.92204 8.625H11.5079Z" fill="#2DBD96"></path>
+                                        </svg>
+                                    </span>
+                                </span>
+
+                            </div>
+                            <div className="inner__item">
+                                <span>
+                                    Volume:
+                                </span>
+                                <span>
+                                    0 USDT
+                                </span>
+
+                            </div>
+                            <div className="inner__item">
+                                <span>
+                                    Advanced: -
+
+                                </span>
+                                <span>
+                                    Settings
+                                </span>
+                            </div>
+                        </div>
+                        <button className="Login__Sing__in__btn">
+                            <a className="login">Log In</a>
+                            <span>
+                                Or
+                            </span>
+                            <a href="https://themadbrains18.github.io/STA-EXCHANGE/sign-up.html">Sign Up</a>
+                        </button>
+                    </div>
+                </div>
+                <div className="price__wrapper ">
+                    <div className="price__input">
+                        <div className="price__box">
+                            <input type="number" placeholder="Stop Price">
+                            <span>USDT</span>
+                            <div className="increase__decrease__value">
+                                <button>+</button>
+                                <button>-</button>
+                            </div>
+                        </div>
+                        <div className="price__box">
+                            <input type="number" placeholder="Price">
+                            <span>USDT</span>
+                            <div className="increase__decrease__value">
+                                <button>+</button>
+                                <button>-</button>
+                            </div>
+                        </div>
+                        <div className="price__box">
+                            <input type="number" placeholder="Amount">
+                            <span>BTC</span>
+                            <div className="increase__decrease__value">
+                                <button>+</button>
+                                <button>-</button>
+                            </div>
+                        </div>
+                        <div className="percentage">
+                            <span>25%</span>
+                            <span>50%</span>
+                            <span>75%</span>
+                            <span>100%</span>
+                        </div>
+                        <div className="availabe">
+                            <div className="inner__item">
+                                <span>
+                                    Available：
+                                </span>
+                                <span>
+                                    0 USDT
+                                    <span>
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fillRule="evenodd" clip-rule="evenodd" d="M7.88744 0.799805L7.12818 1.4506L8.71329 3.2998C8.9913 3.62413 8.76085 4.1252 8.33367 4.1252H0.507812V5.1252H11.5949L7.88744 0.799805ZM11.5079 8.625V7.625H0.300781L4.15433 11.4786L4.86144 10.7714L3.56849 9.47856C3.2535 9.16358 3.47658 8.625 3.92204 8.625H11.5079Z" fill="#2DBD96"></path>
+                                        </svg>
+                                    </span>
+                                </span>
+                            </div>
+                            <div className="inner__item">
+                                <span>
+                                    Volume:
+                                </span>
+                                <span>
+                                    0 USDT
+                                </span>
+                            </div>
+                        </div>
+                        <button className="Login__Sing__in__btn">
+                            <a className="login">Log In</a>
+                            <span>
+                                Or
+                            </span>
+                            <a href="https://themadbrains18.github.io/STA-EXCHANGE/sign-up.html">Sign Up</a>
+                        </button>
+                    </div>
+                    <div className="price__input">
+                        <div className="price__box">
+                            <input type="number" placeholder="Stop Price">
+                            <span>USDT</span>
+                            <div className="increase__decrease__value">
+                                <button>+</button>
+                                <button>-</button>
+                            </div>
+                        </div>
+                        <div className="price__box">
+                            <input type="number" placeholder="Price">
+                            <span>USDT</span>
+                            <div className="increase__decrease__value">
+                                <button>+</button>
+                                <button>-</button>
+                            </div>
+                        </div>
+                        <div className="price__box">
+                            <input type="number" placeholder="Amount">
+                            <span>BTC</span>
+                            <div className="increase__decrease__value">
+                                <button>+</button>
+                                <button>-</button>
+                            </div>
+                        </div>
+                        <div className="percentage">
+                            <span>25%</span>
+                            <span>50%</span>
+                            <span>75%</span>
+                            <span>100%</span>
+                        </div>
+                        <div className="availabe">
+                            <div className="inner__item">
+                                <span>
+                                    Available：
+                                </span>
+                                <span>
+                                    0 USDT
+                                    <span>
+                                        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fillRule="evenodd" clip-rule="evenodd" d="M7.88744 0.799805L7.12818 1.4506L8.71329 3.2998C8.9913 3.62413 8.76085 4.1252 8.33367 4.1252H0.507812V5.1252H11.5949L7.88744 0.799805ZM11.5079 8.625V7.625H0.300781L4.15433 11.4786L4.86144 10.7714L3.56849 9.47856C3.2535 9.16358 3.47658 8.625 3.92204 8.625H11.5079Z" fill="#2DBD96"></path>
+                                        </svg>
+                                    </span>
+                                </span>
+                            </div>
+                            <div className="inner__item">
+                                <span>
+                                    Volume:
+                                </span>
+                                <span>
+                                    0 USDT
+                                </span>
+                            </div>
+                        </div>
+                        <button className="Login__Sing__in__btn">
+                            <a className="login">Log In</a>
+                            <span>
+                                Or
+                            </span>
+                            <a href="https://themadbrains18.github.io/STA-EXCHANGE/sign-up.html">Sign Up</a>
+                        </button>
+                    </div>
+                </div>
+                <div className="tour__popup" id="BuyingSelling">
+                    <h4>
+                        Assets Overview
+                    </h4>
+                    <p>
+                        The balance in your Main Account, Trading Account and Margin Account is shown here.
+                    </p>
+                    <div className="popup__footer">
+                        <div className="pagination">
+                            <span></span>
+                            <span className="active"></span>
+                            <span></span>
+                        </div>
+                        <div className="next__prev__btn">
+                            <button className="next__button" onclick="assetsView()">
+                                Prev
+                            </button>
+                            <button className="next__button" onclick="SpotMargin()">
+                                Next
+                            </button>
+                        </div>
+                    </div>
+                    <button className="close__btn" onclick="closePopup()">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 378.303 378.303" style="enable-background:new 0 0 378.303 378.303;" xml:space="preserve">
+                            <polygon style="fill:rgb(29, 34, 42);" points="378.303,28.285 350.018,0 189.151,160.867 28.285,0 0,28.285 160.867,189.151 0,350.018 
+                                 28.285,378.302 189.151,217.436 350.018,378.302 378.303,350.018 217.436,189.151 ">
+                            </polygon>
+                            <g>
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+                <div className="tour__popup" id="SpotMargin">
+                    <h4>
+                        Assets Overview
+                    </h4>
+                    <p>
+                        The balance in your Main Account, Trading Account and Margin Account is shown here.
+                    </p>
+                    <div className="popup__footer">
+                        <div className="pagination">
+                            <span></span>
+                            <span></span>
+                            <span className="active"></span>
+                        </div>
+                        <div className="next__prev__btn">
+                            <button className="next__button" onclick="BuyingSelling()">
+                                Prev
+                            </button>
+                            <button className="next__button" onclick="closePopup()">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+                    <button className="close__btn" onclick="closePopup()">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 378.303 378.303" style="enable-background:new 0 0 378.303 378.303;" xml:space="preserve">
+                            <polygon style="fill:rgb(29, 34, 42);" points="378.303,28.285 350.018,0 189.151,160.867 28.285,0 0,28.285 160.867,189.151 0,350.018 
+                                28.285,378.302 189.151,217.436 350.018,378.302 378.303,350.018 217.436,189.151 ">
+                            </polygon>
+                            <g>
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Sound Popup -->
+        <div className="sound__reminder__popup">
+            <h3 className="popup__heading">
+                Sound Reminder for Trades
+            </h3>
+            <h4 className="order__Select">
+                Orders Fully Completed
+            </h4>
+            <div className="order__tabs__inner__Data tabs__dropdown">
+                <button className="pairs__button">
+                    <span>The forest</span>
+                    <img src="./Trading-Chart_files/dropdown-icon.svg" alt="">
+                </button>
+                <div className="dropdown__content">
+                    <option className="dropdown__option">
+                        The forest
+                    </option>
+                    <option className="dropdown__option">
+                        Sweet
+                    </option>
+                    <option className="dropdown__option">
+                        Happy rhythm
+                    </option>
+                    <option className="dropdown__option">
+                        Crisp
+                    </option>
+                    <option className="dropdown__option">
+                        Fresh
+                    </option>
+                    <option className="dropdown__option">
+                        Game reward
+                    </option>
+                    <option className="dropdown__option">
+                        Throwing coins
+                    </option>
+                    <option className="dropdown__option">
+                        Close Sound Reminder
+                    </option>
+                </div>
+
+            </div>
+
+            <h4 className="order__Select">
+                Orders Partially Completed
+            </h4>
+            <div className="order__tabs__inner__Data tabs__dropdown">
+                <button className="pairs__button">
+                    <span>Close Sound Reminder</span>
+                    <img src="./Trading-Chart_files/dropdown-icon.svg" alt="">
+                </button>order__wapper
+                <div className="dropdown__content">
+                    <option className="dropdown__option">
+                        Close Sound Reminder
+                    </option>
+                    <option className="dropdown__option">
+                        Water droplets
+                    </option>
+                    <option className="dropdown__option">
+                        Vibration
+                    </option>
+                    <option className="dropdown__option">
+                        Comedy
+                    </option>
+                    <option className="dropdown__option">
+                        Correct answer
+                    </option>
+                    <option className="dropdown__option">
+                        Bicycle bell
+                    </option>
+                </div>
+            </div>
+            <div className="popup__Btn">
+                <button className="cancel__btn">
+                    Cancel
+                </button>
+                <button className="confirm__btn">
+                    Confirm
+                </button>
+            </div>
+            <button className="close__popup__btn">
+                <!--?xml version="1.0" encoding="iso-8859-1"?-->
+                <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 378.303 378.303" style="enable-background:new 0 0 378.303 378.303;" xml:space="preserve">
+                    <polygon style="fill:#fff;" points="378.303,28.285 350.018,0 189.151,160.867 28.285,0 0,28.285 160.867,189.151 0,350.018 
+                        28.285,378.302 189.151,217.436 350.018,378.302 378.303,350.018 217.436,189.151 "></polygon>
+                    <g>
+                    </g>
+                </svg>
+            </button>
+        </div>
+        <div className="sound__reminder__popup auto__borrow">
+            <h3 className="popup__heading">
+                Auto-Borrow
+            </h3>
+            <p className="popup__info">
+                The system will borrow funds automatically for your trade at the optimal interest rate and place your
+                order.
+            </p>
+            <div className="popup__Btn">
+                <button className="cancel__btn">
+                    Cancel
+                </button>
+                <button className="confirm__btn">
+                    Enable
+                </button>
+            </div>
+            <button className="close__popup__btn">
+                <!--?xml version="1.0" encoding="iso-8859-1"?-->
+                <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 378.303 378.303" style="enable-background:new 0 0 378.303 378.303;" xml:space="preserve">
+                    <polygon style="fill:#fff;" points="378.303,28.285 350.018,0 189.151,160.867 28.285,0 0,28.285 160.867,189.151 0,350.018 
+                        28.285,378.302 189.151,217.436 350.018,378.302 378.303,350.018 217.436,189.151 "></polygon>
+                    <g>
+                    </g>
+                </svg>
+            </button>
+        </div>
+        <div className="sound__bg__layer">
+        </div>
+    </main>
+    <script src="./Trading-Chart_files/graph.js.download"></script>
+    <script type="text/javascript" src="./Trading-Chart_files/tv.js.download"></script>
+
+    <script type="text/javascript">
+        window.addEventListener("load", () => {
+            let qwe = new TradingView.widget(
+                {
+                    "height": window.innerHeight - (document.querySelector('.order__wapper').offsetHeight + document.querySelector('.header').offsetHeight),
+                    "width": window.innerWidth,
+                    "symbol": "NASDAQ:AAPL",
+                    "timezone": "Etc/UTC",
+                    "theme": "dark",
+                    "style": "1",
+                    "locale": "in",
+                    "toolbar_bg": "#f1f3f6",
+                    "enable_publishing": false,
+                    "withdateranges": true,
+                    "range": "YTD",
+                    "hide_side_toolbar": false,
+                    "allow_symbol_change": true,
+                    "details": true,
+                    "hotlist": true,
+                    "calendar": true,
+                    "studies": [
+                        "WilliamsAlligator@tv-basicstudies"
+                    ],
+                    "show_popup_button": true,
+                    "popup_width": "1000",
+                    "popup_height": "650",
+                    "container_id": "tradingview_00101"
+                }
+            );
+
+            let LimitTabs = document.querySelectorAll(".limit__tabs__button");
+            for (let i in LimitTabs) {
+                if (LimitTabs.length >= i) {
+                    LimitTabs[i].addEventListener("click", () => {
+                        qwe.options.height = window.innerHeight - (document.querySelector('.order__wapper').offsetHeight + document.querySelector('.header').offsetHeight - 100)
+                        console.log(qwe.options.height = window.innerHeight - (document.querySelector('.order__wapper').offsetHeight + document.querySelector('.header').offsetHeight - 100));
+                        console.log(qwe.options.height);
+                    });
+                }
+            }
+        });
+    </script>
+
+
+<style>.tradingview-widget-copyright {font-size: 13px !important; line-height: 32px !important; text-align: center !important; vertical-align: middle !important; font-family: 'Trebuchet MS', Arial, sans-serif !important; color: #9db2bd !important;} .tradingview-widget-copyright .blue-text {color: #2962FF !important;} .tradingview-widget-copyright a {text-decoration: none !important; color: #9db2bd !important;} .tradingview-widget-copyright a:visited {color: #9db2bd !important;} .tradingview-widget-copyright a:hover .blue-text {color: #1E53E5 !important;} .tradingview-widget-copyright a:active .blue-text {color: #1848CC !important;} .tradingview-widget-copyright a:visited .blue-text {color: #2962FF !important;}</style></body></html>

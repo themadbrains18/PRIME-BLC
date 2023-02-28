@@ -1,0 +1,123 @@
+
+.learn-banner-img img{
+    height: 400px;
+   
+}
+.learn-banner-content{
+    max-width: 500px;
+    width: 100%;
+    height:100%
+}
+.content-subtitle{
+    margin-top: 10px;
+    margin-bottom: 26px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.content-button button{
+  padding: 0 36px;
+  height: 55px;
+}
+.categoies-content-box{
+   padding: 0 15px;
+    margin-top: 13px;
+  
+}
+.category-content img{
+    background-position: 50%;
+    background-size: cover;
+    max-width:250px;
+    width: 100%;
+    cursor: pointer;
+}
+.category-content{
+    text-align: center;
+    margin-top: 13px;
+    cursor: pointer;
+    border-color: #fff;
+    height: 100%;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 4px 4px 20px hsl(0deg 0% 78% / 33%);
+    border-style: solid;
+    text-align: center;
+ 
+}
+.tag.brand {
+    color: #f7a600;
+    background: #fdf6e7;
+}
+.tag {
+    display: inline-block;
+    padding: 4px 8px;
+    font-weight: 500;
+    font-size: 10px;
+    border-radius: 4px;
+}
+.post-card-level.beginner {
+background-color: #dcf2e6;
+    color: #22af64;
+}
+.post-card-level {
+    padding: 3px 8px;
+    border-radius: 100px;
+}
+.dot{
+    padding: 0 8px;
+}
+
+
+.highlight-post-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.highlight-post-box{
+    gap:20px;
+    justify-content: space-between;
+}
+.content-post{
+    transition: 0.4s;
+}
+.highlight-content-post{
+    transition: 0.4s;
+}
+.content-post:hover{    
+        transform: translateY(-5px) ;
+}
+.highlight-content-post:hover{    
+        transform: translateY(-5px) ;
+}
+
+
+@media (max-width:768px) {
+    .highlight-post-box{
+        /* display: block !important; */
+        overflow: scroll;
+        display: flex;
+        
+    }
+    .highlight-content-post > .card{
+    width: 100%;
+    min-width: 300px;
+    }
+    .learn-banner-img{
+   display: none;
+    
+    }
+    
+}
+@media (max-width:991px) {
+    .post-card-content{
+        flex-direction: column !important;
+    }
+    .post-card-content > div {
+        width: 100%;
+    }
+    .post-card-content > div img{
+        max-width: 260px;
+        width: 100%;
+        margin: 30px auto 0;
+        display: block;
+    }
+    
+}

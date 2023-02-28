@@ -1,0 +1,181 @@
+.two_faq_auth{
+    position: fixed;
+    top:47%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    padding: 40px 20px 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    z-index: 9;
+    box-shadow: 0px 0px 20px #cccccc6e;
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+}
+.two_faq_auth.show{
+    top: 50%;
+    opacity: 1;
+    visibility: visible;
+}
+.two_faq_auth .popup_heading {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+.two_faq_points {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+.two_faq_points:not(:last-child){
+    margin-bottom: 20px;
+}
+.two_faq_point_number {
+    width: 100%;
+    height: 24px;
+    border-radius: 50%;
+    background: #eb9f12;
+    display: flex;
+    max-width: 24px;
+}
+.two_faq_point_number span {
+    margin: auto;
+}
+.two_faq_point_heading {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.two_faq_point_info {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+.two_faq_point_heading span,
+.two_faq_point_info span
+{
+    color: #eb9f12;
+}
+.two_faq_point_info span{
+    display: block; 
+}
+.qr_code {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.copy_code {
+    display: flex;
+    align-items: center;
+    max-width: 350px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.copy_2fa_code {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+    font-size: 14px;
+    font-weight: 500;
+    background: transparent;
+}
+.copy_code svg {
+    margin: 0 11px;
+    cursor: pointer;
+}
+.code_input_wrapper{
+    margin-top: 20px;
+}
+.code_input_wrapper label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.google_code_input:focus{
+    outline: none;
+}
+.google_code_input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.code_submit_cta {
+    width: 100%;
+    padding: 12px 10px;
+    background: #eb9f12;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s;
+    border: 1px solid transparent;
+}
+.code_submit_cta:hover {
+    background-color: #fff;
+    border: 1px solid #eb9f12;
+    color: #eb9f12;
+}
+.popup_close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.copied_text{
+    background-color: #FF9934;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 15px 15px 15px 15px;
+    position: fixed;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    text-align: center;
+    margin: 0;
+    transition: 0.3s;
+}
+.copied_text.show{
+    top: 0;
+}
+
+
+
+@media(max-width:1024px){
+    .two_faq_auth{
+        overflow-y: scroll;
+        height: 550px;
+    }
+}
+@media(max-width:768px){
+    .two_faq_auth {
+        top: calc(50% + 40px);
+        max-width: calc(100% - 30px);
+        height: 500px;
+        overflow-y: scroll;
+        padding: 40px 15px 15px;
+    }
+    .two_faq_point_info {
+        font-size: 12px;
+    }
+    .two_faq_point_heading {
+        font-size: 16px;
+    }
+    .two_faq_point_number{
+        max-width: 18px;
+        height: 18px;
+    }
+    .two_faq_point_number span {
+        font-size: 10px;
+    }
+    .two_faq_points {
+        gap: 8px;
+    }
+}
